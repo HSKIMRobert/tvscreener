@@ -1,0 +1,45 @@
+category,total,DIRECT,COMPUTE,PARTNER,MISSING,N/A
+Fundamentals: derived ratios & scores,115,0,115,0,0,0
+Technical: oscillator,89,25,64,0,0,0
+Technical: moving average,62,62,0,0,0,0
+Fundamentals: income statement,57,57,0,0,0,0
+Technical: bands / trend / pivots,56,0,56,0,0,0
+TV internal metadata,49,0,0,0,0,49
+Fundamentals: growth,44,0,44,0,0,0
+Fundamentals: balance sheet,38,25,13,0,0,0
+Price & volume: period high/low,35,0,35,0,0,0
+Fundamentals: half-year period,35,0,0,0,35,0
+Fundamentals: cash flow,34,33,0,0,1,0
+Fundamentals: margins,29,0,29,0,0,0
+ETF: profile,29,0,0,28,1,0
+Technical: candlestick pattern,28,0,28,0,0,0
+"ETF: NAV, AUM, flows",28,0,0,28,0,0
+Valuation ratios,27,18,9,0,0,0
+Price & volume: extended hours,20,0,20,0,0,0
+Price & volume: current bar,18,8,10,0,0,0
+Liquidity / leverage / return ratios,18,18,0,0,0,0
+Dividends: events,18,18,0,0,0,0
+Price & volume: change over N min/period,14,0,14,0,0,0
+Price & volume: averages,13,0,13,0,0,0
+Reference,13,8,1,0,4,0
+Analyst: ratings & targets,13,0,0,13,0,0
+Events: IPO,13,8,1,0,4,0
+Events: earnings date,12,0,0,12,0,0
+Performance: price change,11,0,11,0,0,0
+Technical: volatility,10,0,10,0,0,0
+Analyst: estimates & surprises,10,0,0,10,0,0
+Technical: TV technical rating,10,0,10,0,0,0
+Shares & float,9,9,0,0,0,0
+Dividends: per share,8,0,8,0,0,0
+Dividends: yield,8,8,0,0,0,0
+Dividends: ratios,8,0,8,0,0,0
+Fundamentals: period info,8,8,0,0,0,0
+Performance: market cap change,8,0,8,0,0,0
+Bond / futures field,4,0,0,0,0,4
+Reference: classification,2,0,0,0,2,0
+Valuation: market cap,2,2,0,0,0,0
+Company: employees,2,2,0,0,0,0
+Company: shareholders,2,0,0,0,2,0
+Analyst: forward valuation,2,0,0,2,0,0
+Reference: identifiers,2,0,0,0,2,0
+Reference: index membership,1,0,0,0,1,0

@@ -1,0 +1,1015 @@
+tv_field,tv_label,timeframe_variants,category,massive_status,massive_source,note
+High.All,All Time High,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),Includes dates of high/low
+Low.All,All Time Low,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),Includes dates of high/low
+Perf.All,All Time Performance,1,Performance: price change,COMPUTE,Aggregates (daily bars),
+Aroon.Down,Aroon Down (14),10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+Aroon.Up,Aroon Up (14),10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+ADR,Average Day Range (14),10,Technical: volatility,COMPUTE,Aggregates (OHLCV bars),
+ADX,Average Directional Index (14),10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+ATR,Average True Range (14),10,Technical: volatility,COMPUTE,Aggregates (OHLCV bars),
+average_volume_10d_calc,Average Volume (10 day),10,Price & volume: averages,COMPUTE,"Aggregates; Ratios.average_volume (30 day, EOD)",30-day average volume is direct in Ratios
+average_volume_30d_calc,Average Volume (30 day),10,Price & volume: averages,COMPUTE,"Aggregates; Ratios.average_volume (30 day, EOD)",30-day average volume is direct in Ratios
+average_volume_60d_calc,Average Volume (60 day),10,Price & volume: averages,COMPUTE,"Aggregates; Ratios.average_volume (30 day, EOD)",30-day average volume is direct in Ratios
+average_volume_90d_calc,Average Volume (90 day),10,Price & volume: averages,COMPUTE,"Aggregates; Ratios.average_volume (30 day, EOD)",30-day average volume is direct in Ratios
+AO,Awesome Oscillator,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+basic_eps_net_income,Basic EPS (FY),1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+earnings_per_share_basic_ttm,Basic EPS (TTM),2,Fundamentals: income statement,DIRECT,Income Statements API (basic/diluted_earnings_per_share),
+BB.lower,Bollinger Lower Band (20),10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+BB.upper,Bollinger Upper Band (20),10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+BBPower,Bull Bear Power,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+Candle.3BlackCrows,Candle.3BlackCrows,10,Technical: candlestick pattern,COMPUTE,Aggregates (OHLC bars),Pattern rules must be coded locally
+Candle.3WhiteSoldiers,Candle.3WhiteSoldiers,10,Technical: candlestick pattern,COMPUTE,Aggregates (OHLC bars),Pattern rules must be coded locally
+Candle.AbandonedBaby.Bearish,Candle.AbandonedBaby.Bearish,10,Technical: candlestick pattern,COMPUTE,Aggregates (OHLC bars),Pattern rules must be coded locally
+Candle.AbandonedBaby.Bullish,Candle.AbandonedBaby.Bullish,10,Technical: candlestick pattern,COMPUTE,Aggregates (OHLC bars),Pattern rules must be coded locally
+Candle.Doji,Candle.Doji,10,Technical: candlestick pattern,COMPUTE,Aggregates (OHLC bars),Pattern rules must be coded locally
+Candle.Doji.Dragonfly,Candle.Doji.Dragonfly,10,Technical: candlestick pattern,COMPUTE,Aggregates (OHLC bars),Pattern rules must be coded locally
+Candle.Doji.Gravestone,Candle.Doji.Gravestone,10,Technical: candlestick pattern,COMPUTE,Aggregates (OHLC bars),Pattern rules must be coded locally
+Candle.Engulfing.Bearish,Candle.Engulfing.Bearish,10,Technical: candlestick pattern,COMPUTE,Aggregates (OHLC bars),Pattern rules must be coded locally
+Candle.Engulfing.Bullish,Candle.Engulfing.Bullish,10,Technical: candlestick pattern,COMPUTE,Aggregates (OHLC bars),Pattern rules must be coded locally
+Candle.EveningStar,Candle.EveningStar,10,Technical: candlestick pattern,COMPUTE,Aggregates (OHLC bars),Pattern rules must be coded locally
+Candle.Hammer,Candle.Hammer,10,Technical: candlestick pattern,COMPUTE,Aggregates (OHLC bars),Pattern rules must be coded locally
+Candle.HangingMan,Candle.HangingMan,10,Technical: candlestick pattern,COMPUTE,Aggregates (OHLC bars),Pattern rules must be coded locally
+Candle.Harami.Bearish,Candle.Harami.Bearish,10,Technical: candlestick pattern,COMPUTE,Aggregates (OHLC bars),Pattern rules must be coded locally
+Candle.Harami.Bullish,Candle.Harami.Bullish,10,Technical: candlestick pattern,COMPUTE,Aggregates (OHLC bars),Pattern rules must be coded locally
+Candle.InvertedHammer,Candle.InvertedHammer,10,Technical: candlestick pattern,COMPUTE,Aggregates (OHLC bars),Pattern rules must be coded locally
+Candle.Kicking.Bearish,Candle.Kicking.Bearish,10,Technical: candlestick pattern,COMPUTE,Aggregates (OHLC bars),Pattern rules must be coded locally
+Candle.Kicking.Bullish,Candle.Kicking.Bullish,10,Technical: candlestick pattern,COMPUTE,Aggregates (OHLC bars),Pattern rules must be coded locally
+Candle.LongShadow.Lower,Candle.LongShadow.Lower,10,Technical: candlestick pattern,COMPUTE,Aggregates (OHLC bars),Pattern rules must be coded locally
+Candle.LongShadow.Upper,Candle.LongShadow.Upper,10,Technical: candlestick pattern,COMPUTE,Aggregates (OHLC bars),Pattern rules must be coded locally
+Candle.Marubozu.Black,Candle.Marubozu.Black,10,Technical: candlestick pattern,COMPUTE,Aggregates (OHLC bars),Pattern rules must be coded locally
+Candle.Marubozu.White,Candle.Marubozu.White,10,Technical: candlestick pattern,COMPUTE,Aggregates (OHLC bars),Pattern rules must be coded locally
+Candle.MorningStar,Candle.MorningStar,10,Technical: candlestick pattern,COMPUTE,Aggregates (OHLC bars),Pattern rules must be coded locally
+Candle.ShootingStar,Candle.ShootingStar,10,Technical: candlestick pattern,COMPUTE,Aggregates (OHLC bars),Pattern rules must be coded locally
+Candle.SpinningTop.Black,Candle.SpinningTop.Black,10,Technical: candlestick pattern,COMPUTE,Aggregates (OHLC bars),Pattern rules must be coded locally
+Candle.SpinningTop.White,Candle.SpinningTop.White,10,Technical: candlestick pattern,COMPUTE,Aggregates (OHLC bars),Pattern rules must be coded locally
+Candle.TriStar.Bearish,Candle.TriStar.Bearish,10,Technical: candlestick pattern,COMPUTE,Aggregates (OHLC bars),Pattern rules must be coded locally
+Candle.TriStar.Bullish,Candle.TriStar.Bullish,10,Technical: candlestick pattern,COMPUTE,Aggregates (OHLC bars),Pattern rules must be coded locally
+cash_n_equivalents_fy,Cash & Equivalents (FY),1,Fundamentals: balance sheet,DIRECT,"Balance Sheets API (quarterly, annual)",
+cash_n_equivalents_fq,Cash & Equivalents (MRQ),1,Fundamentals: balance sheet,DIRECT,"Balance Sheets API (quarterly, annual)",
+cash_n_short_term_invest_fy,Cash and short term investments (FY),1,Fundamentals: balance sheet,COMPUTE,Balance Sheets API (sum of lines),
+cash_n_short_term_invest_fq,Cash and short term investments (MRQ),1,Fundamentals: balance sheet,COMPUTE,Balance Sheets API (sum of lines),
+ChaikinMoneyFlow,Chaikin Money Flow (20),10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+change_abs,Change,10,Price & volume: current bar,DIRECT,"Snapshot (day, min, prevDay, todaysChange)",Full-market snapshot gives all US tickers in one call
+change_abs.15,Change 15m,1,Price & volume: change over N min/period,COMPUTE,Aggregates / snapshot min bars,
+change.15,"Change 15m, %",1,Price & volume: change over N min/period,COMPUTE,Aggregates / snapshot min bars,
+change_abs.60,Change 1h,1,Price & volume: change over N min/period,COMPUTE,Aggregates / snapshot min bars,
+change.60,"Change 1h, %",1,Price & volume: change over N min/period,COMPUTE,Aggregates / snapshot min bars,
+change_abs.1,Change 1m,1,Price & volume: change over N min/period,COMPUTE,Aggregates / snapshot min bars,
+change_abs.1M,Change 1M,1,Price & volume: change over N min/period,COMPUTE,Aggregates / snapshot min bars,
+change.1,"Change 1m, %",1,Price & volume: change over N min/period,COMPUTE,Aggregates / snapshot min bars,
+change.1M,"Change 1M, %",1,Price & volume: change over N min/period,COMPUTE,Aggregates / snapshot min bars,
+change_abs.1W,Change 1W,1,Price & volume: change over N min/period,COMPUTE,Aggregates / snapshot min bars,
+change.1W,"Change 1W, %",1,Price & volume: change over N min/period,COMPUTE,Aggregates / snapshot min bars,
+change_abs.240,Change 4h,1,Price & volume: change over N min/period,COMPUTE,Aggregates / snapshot min bars,
+change.240,"Change 4h, %",1,Price & volume: change over N min/period,COMPUTE,Aggregates / snapshot min bars,
+change_abs.5,Change 5m,1,Price & volume: change over N min/period,COMPUTE,Aggregates / snapshot min bars,
+change.5,"Change 5m, %",1,Price & volume: change over N min/period,COMPUTE,Aggregates / snapshot min bars,
+change_from_open_abs,Change from Open,10,Price & volume: current bar,COMPUTE,Snapshot (day + prevDay),Simple arithmetic on snapshot values
+change_from_open,Change from Open %,10,Price & volume: current bar,COMPUTE,Snapshot (day + prevDay),Simple arithmetic on snapshot values
+change,Change %,10,Price & volume: current bar,DIRECT,"Snapshot (day, min, prevDay, todaysChange)",Full-market snapshot gives all US tickers in one call
+CCI20,Commodity Channel Index (20),10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+country,Country,1,Reference,COMPUTE,Ticker Overview.address,US HQ address only
+currency,Currency,1,Reference,DIRECT,"Ticker Overview (name, primary_exchange, type, currency_name, branding)",subtype mapped to ticker type
+current_ratio,Current Ratio (MRQ),1,Liquidity / leverage / return ratios,DIRECT,"Ratios API (current, quick, cash, debt_to_equity, return_on_assets, return_on_equity)",Ratios API is latest TTM-based; FQ/FY variants computed from statements
+debt_to_equity,Debt to Equity Ratio (MRQ),1,Liquidity / leverage / return ratios,DIRECT,"Ratios API (current, quick, cash, debt_to_equity, return_on_assets, return_on_equity)",Ratios API is latest TTM-based; FQ/FY variants computed from statements
+description,Description,1,Reference,DIRECT,"Ticker Overview (name, primary_exchange, type, currency_name, branding)",subtype mapped to ticker type
+dividends_paid,Dividends Paid (FY),1,Fundamentals: cash flow,DIRECT,Cash Flow (dividends) / Income (preferred_stock_dividends_declared),Half-year (_fh) not provided
+dps_common_stock_prim_issue_yoy_growth_fy,Dividends per share (Annual YoY Growth),1,Dividends: per share,COMPUTE,Dividends API (sum cash_amount by period),
+dps_common_stock_prim_issue_fy,Dividends per Share (FY),1,Dividends: per share,COMPUTE,Dividends API (sum cash_amount by period),
+dividends_per_share_fq,Dividends per Share (MRQ),1,Dividends: per share,COMPUTE,Dividends API (sum cash_amount by period),
+dividend_yield_recent,Dividend Yield Forward,1,Dividends: yield,DIRECT,Ratios.dividend_yield (EOD),Recent/upcoming variants computed from Dividends API
+DonchCh20.Lower,Donchian Channels Lower Band (20),10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+DonchCh20.Upper,Donchian Channels Upper Band (20),10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+ebitda_yoy_growth_fy,EBITDA (Annual YoY Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+ebitda_qoq_growth_fq,EBITDA (Quarterly QoQ Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+ebitda_yoy_growth_fq,EBITDA (Quarterly YoY Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+ebitda,EBITDA (TTM),1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+ebitda_yoy_growth_ttm,EBITDA (TTM YoY Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+enterprise_value_ebitda_ttm,Enterprise Value/EBITDA (TTM),1,Valuation ratios,DIRECT,"Ratios API (price_to_earnings, price_to_book, price_to_sales, price_to_free_cash_flow, price_to_cash_flow, ev_to_ebitda, ev_to_sales, enterprise_value)",EOD; server-side .gt/.lt filters available
+enterprise_value_fq,Enterprise Value (MRQ),1,Valuation ratios,DIRECT,"Ratios API (price_to_earnings, price_to_book, price_to_sales, price_to_free_cash_flow, price_to_cash_flow, ev_to_ebitda, ev_to_sales, enterprise_value)",EOD; server-side .gt/.lt filters available
+earnings_per_share_diluted_yoy_growth_fy,EPS Diluted (Annual YoY Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+last_annual_eps,EPS Diluted (FY),1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+earnings_per_share_fq,EPS Diluted (MRQ),1,Fundamentals: income statement,DIRECT,Income Statements API (basic/diluted_earnings_per_share),
+earnings_per_share_diluted_qoq_growth_fq,EPS Diluted (Quarterly QoQ Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+earnings_per_share_diluted_yoy_growth_fq,EPS Diluted (Quarterly YoY Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+earnings_per_share_diluted_ttm,EPS Diluted (TTM),1,Fundamentals: income statement,DIRECT,Income Statements API (basic/diluted_earnings_per_share),
+earnings_per_share_diluted_yoy_growth_ttm,EPS Diluted (TTM YoY Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+earnings_per_share_forecast_next_fq,EPS Forecast (MRQ),1,Analyst: estimates & surprises,PARTNER,"Benzinga Earnings (estimated_eps, estimated_revenue, eps_surprise, revenue_surprise)",Paid add-on
+exchange,Exchange,1,Reference,DIRECT,"Ticker Overview (name, primary_exchange, type, currency_name, branding)",subtype mapped to ticker type
+EMA10,Exponential Moving Average (10),10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+EMA100,Exponential Moving Average (100),10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+EMA20,Exponential Moving Average (20),10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+EMA200,Exponential Moving Average (200),10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+EMA30,Exponential Moving Average (30),10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+EMA5,Exponential Moving Average (5),10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+EMA50,Exponential Moving Average (50),10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+free_cash_flow_yoy_growth_fy,Free Cash Flow (Annual YoY Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+free_cash_flow_margin_fy,Free Cash Flow Margin (FY),1,Fundamentals: margins,COMPUTE,Income statement,
+free_cash_flow_margin_ttm,Free Cash Flow Margin (TTM),1,Fundamentals: margins,COMPUTE,Income statement,
+free_cash_flow_qoq_growth_fq,Free Cash Flow (Quarterly QoQ Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+free_cash_flow_yoy_growth_fq,Free Cash Flow (Quarterly YoY Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+free_cash_flow_yoy_growth_ttm,Free Cash Flow (TTM YoY Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+fundamental_currency_code,Fundamental Currency Code,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+gap,Gap %,10,Price & volume: current bar,COMPUTE,Snapshot (day + prevDay),Simple arithmetic on snapshot values
+goodwill,Goodwill,1,Fundamentals: balance sheet,DIRECT,"Balance Sheets API (quarterly, annual)",
+gross_profit_margin_fy,Gross Margin (FY),1,Fundamentals: margins,COMPUTE,Income statement,
+gross_margin,Gross Margin (TTM),1,Fundamentals: margins,COMPUTE,Income statement,
+gross_profit_yoy_growth_fy,Gross Profit (Annual YoY Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+gross_profit,Gross Profit (FY),1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+gross_profit_fq,Gross Profit (MRQ),1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+gross_profit_qoq_growth_fq,Gross Profit (Quarterly QoQ Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+gross_profit_yoy_growth_fq,Gross Profit (Quarterly YoY Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+gross_profit_yoy_growth_ttm,Gross Profit (TTM YoY Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+high,High,10,Price & volume: current bar,DIRECT,"Snapshot (day, min, prevDay, todaysChange)",Full-market snapshot gives all US tickers in one call
+HullMA9,Hull Moving Average (9),10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Ichimoku.BLine,"Ichimoku Base Line (9, 26, 52, 26)",10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Ichimoku.CLine,"Ichimoku Conversion Line (9, 26, 52, 26)",10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Ichimoku.Lead1,"Ichimoku Leading Span A (9, 26, 52, 26)",10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Ichimoku.Lead2,"Ichimoku Leading Span B (9, 26, 52, 26)",10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+industry,Industry,1,Reference: classification,MISSING,"Ticker Overview (sic_code, sic_description)",Only SEC SIC code; no sector/industry taxonomy like TradingView
+KltChnl.lower,Keltner Channels Lower Band (20),10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+KltChnl.upper,Keltner Channels Upper Band (20),10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+last_annual_revenue,Last Year Revenue (FY),1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+logoid,Logoid,1,Reference,DIRECT,"Ticker Overview (name, primary_exchange, type, currency_name, branding)",subtype mapped to ticker type
+low,Low,10,Price & volume: current bar,DIRECT,"Snapshot (day, min, prevDay, todaysChange)",Full-market snapshot gives all US tickers in one call
+MACD.macd,"MACD Level (12, 26)",10,Technical: oscillator,DIRECT,Technical Indicators API (MACD),One ticker per call
+MACD.signal,"MACD Signal (12, 26)",10,Technical: oscillator,DIRECT,Technical Indicators API (MACD),One ticker per call
+market_cap_basic,Market Capitalization,1,Valuation: market cap,DIRECT,Ticker Overview.market_cap; Ratios.market_cap,
+Mom,Momentum (10),10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+MoneyFlow,Money Flow (14),10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+Perf.1M,Monthly Performance,1,Performance: price change,COMPUTE,Aggregates (daily bars),
+High.1M,1-Month High,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),Includes dates of high/low
+High.3M,3-Month High,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),Includes dates of high/low
+High.6M,6-Month High,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),Includes dates of high/low
+Low.1M,1-Month Low,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),Includes dates of high/low
+Low.3M,3-Month Low,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),Includes dates of high/low
+Low.6M,6-Month Low,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),Includes dates of high/low
+Perf.3M,3-Month Performance,1,Performance: price change,COMPUTE,Aggregates (daily bars),
+Perf.6M,6-Month Performance,1,Performance: price change,COMPUTE,Aggregates (daily bars),
+Recommend.MA,Moving Averages Rating,10,Technical: TV technical rating,COMPUTE,Aggregates + local indicators,TradingView rating formula must be reproduced locally
+name,Name,1,Reference,DIRECT,"Ticker Overview (name, primary_exchange, type, currency_name, branding)",subtype mapped to ticker type
+ADX-DI,Negative Directional Indicator (14),10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+net_debt,Net Debt (MRQ),1,Fundamentals: balance sheet,COMPUTE,Balance Sheets API (sum of lines),
+net_income_yoy_growth_fy,Net Income (Annual YoY Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+net_income,Net Income (FY),1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+net_income_qoq_growth_fq,Net Income (Quarterly QoQ Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+net_income_yoy_growth_fq,Net Income (Quarterly YoY Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+net_income_yoy_growth_ttm,Net Income (TTM YoY Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+net_income_bef_disc_oper_margin_fy,Net Margin (FY),1,Fundamentals: margins,COMPUTE,Income statement,
+after_tax_margin,Net Margin (TTM),1,Fundamentals: margins,COMPUTE,Income statement,
+number_of_employees,Number of Employees,1,Company: employees,DIRECT,Ticker Overview.total_employees,"Current value only, no FY history"
+number_of_shareholders,Number of Shareholders,1,Company: shareholders,MISSING,,
+open,Open,10,Price & volume: current bar,DIRECT,"Snapshot (day, min, prevDay, todaysChange)",Full-market snapshot gives all US tickers in one call
+oper_income_margin_fy,Operating Margin (FY),1,Fundamentals: margins,COMPUTE,Income statement,
+operating_margin,Operating Margin (TTM),1,Fundamentals: margins,COMPUTE,Income statement,
+Recommend.Other,Oscillators Rating,10,Technical: TV technical rating,COMPUTE,Aggregates + local indicators,TradingView rating formula must be reproduced locally
+P.SAR,Parabolic SAR,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+candlestick,Pattern,1,Technical: candlestick pattern,COMPUTE,Aggregates (OHLC bars),Pattern rules must be coded locally
+Pivot.M.Camarilla.Middle,Pivot Camarilla P,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Camarilla.R1,Pivot Camarilla R1,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Camarilla.R2,Pivot Camarilla R2,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Camarilla.R3,Pivot Camarilla R3,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Camarilla.S1,Pivot Camarilla S1,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Camarilla.S2,Pivot Camarilla S2,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Camarilla.S3,Pivot Camarilla S3,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Classic.Middle,Pivot Classic P,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Classic.R1,Pivot Classic R1,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Classic.R2,Pivot Classic R2,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Classic.R3,Pivot Classic R3,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Classic.S1,Pivot Classic S1,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Classic.S2,Pivot Classic S2,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Classic.S3,Pivot Classic S3,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Demark.Middle,Pivot DM P,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Demark.R1,Pivot DM R1,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Demark.S1,Pivot DM S1,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Fibonacci.Middle,Pivot Fibonacci P,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Fibonacci.R1,Pivot Fibonacci R1,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Fibonacci.R2,Pivot Fibonacci R2,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Fibonacci.R3,Pivot Fibonacci R3,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Fibonacci.S1,Pivot Fibonacci S1,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Fibonacci.S2,Pivot Fibonacci S2,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Fibonacci.S3,Pivot Fibonacci S3,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Woodie.Middle,Pivot Woodie P,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Woodie.R1,Pivot Woodie R1,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Woodie.R2,Pivot Woodie R2,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Woodie.R3,Pivot Woodie R3,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Woodie.S1,Pivot Woodie S1,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Woodie.S2,Pivot Woodie S2,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Pivot.M.Woodie.S3,Pivot Woodie S3,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+ADX+DI,Positive Directional Indicator (14),10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+postmarket_change_abs,Post-market Change,1,Price & volume: extended hours,COMPUTE,"Minute aggregates (include extended hours); Daily Ticker Summary (preMarket, afterHours price)",Only pre/after-hours single price is direct
+postmarket_change,Post-market Change %,1,Price & volume: extended hours,COMPUTE,"Minute aggregates (include extended hours); Daily Ticker Summary (preMarket, afterHours price)",Only pre/after-hours single price is direct
+postmarket_close,Post-market Close,1,Price & volume: extended hours,COMPUTE,"Minute aggregates (include extended hours); Daily Ticker Summary (preMarket, afterHours price)",Only pre/after-hours single price is direct
+postmarket_high,Post-market High,1,Price & volume: extended hours,COMPUTE,"Minute aggregates (include extended hours); Daily Ticker Summary (preMarket, afterHours price)",Only pre/after-hours single price is direct
+postmarket_low,Post-market Low,1,Price & volume: extended hours,COMPUTE,"Minute aggregates (include extended hours); Daily Ticker Summary (preMarket, afterHours price)",Only pre/after-hours single price is direct
+postmarket_open,Post-market Open,1,Price & volume: extended hours,COMPUTE,"Minute aggregates (include extended hours); Daily Ticker Summary (preMarket, afterHours price)",Only pre/after-hours single price is direct
+postmarket_volume,Post-market Volume,1,Price & volume: extended hours,COMPUTE,"Minute aggregates (include extended hours); Daily Ticker Summary (preMarket, afterHours price)",Only pre/after-hours single price is direct
+premarket_change_abs,Pre-market Change,1,Price & volume: extended hours,COMPUTE,"Minute aggregates (include extended hours); Daily Ticker Summary (preMarket, afterHours price)",Only pre/after-hours single price is direct
+premarket_change_from_open_abs,Pre-market Change from Open,1,Price & volume: extended hours,COMPUTE,"Minute aggregates (include extended hours); Daily Ticker Summary (preMarket, afterHours price)",Only pre/after-hours single price is direct
+premarket_change_from_open,Pre-market Change from Open %,1,Price & volume: extended hours,COMPUTE,"Minute aggregates (include extended hours); Daily Ticker Summary (preMarket, afterHours price)",Only pre/after-hours single price is direct
+premarket_change,Pre-market Change %,1,Price & volume: extended hours,COMPUTE,"Minute aggregates (include extended hours); Daily Ticker Summary (preMarket, afterHours price)",Only pre/after-hours single price is direct
+premarket_close,Pre-market Close,1,Price & volume: extended hours,COMPUTE,"Minute aggregates (include extended hours); Daily Ticker Summary (preMarket, afterHours price)",Only pre/after-hours single price is direct
+premarket_gap,Pre-market Gap %,1,Price & volume: extended hours,COMPUTE,"Minute aggregates (include extended hours); Daily Ticker Summary (preMarket, afterHours price)",Only pre/after-hours single price is direct
+premarket_high,Pre-market High,1,Price & volume: extended hours,COMPUTE,"Minute aggregates (include extended hours); Daily Ticker Summary (preMarket, afterHours price)",Only pre/after-hours single price is direct
+premarket_low,Pre-market Low,1,Price & volume: extended hours,COMPUTE,"Minute aggregates (include extended hours); Daily Ticker Summary (preMarket, afterHours price)",Only pre/after-hours single price is direct
+premarket_open,Pre-market Open,1,Price & volume: extended hours,COMPUTE,"Minute aggregates (include extended hours); Daily Ticker Summary (preMarket, afterHours price)",Only pre/after-hours single price is direct
+premarket_volume,Pre-market Volume,1,Price & volume: extended hours,COMPUTE,"Minute aggregates (include extended hours); Daily Ticker Summary (preMarket, afterHours price)",Only pre/after-hours single price is direct
+pre_tax_margin,Pretax Margin (TTM),1,Fundamentals: margins,COMPUTE,Income statement,
+close,Price,10,Price & volume: current bar,DIRECT,"Snapshot (day, min, prevDay, todaysChange)",Full-market snapshot gives all US tickers in one call
+price_book_ratio,Price to Book (FY),1,Valuation ratios,DIRECT,"Ratios API (price_to_earnings, price_to_book, price_to_sales, price_to_free_cash_flow, price_to_cash_flow, ev_to_ebitda, ev_to_sales, enterprise_value)",EOD; server-side .gt/.lt filters available
+price_book_fq,Price to Book (MRQ),1,Valuation ratios,DIRECT,"Ratios API (price_to_earnings, price_to_book, price_to_sales, price_to_free_cash_flow, price_to_cash_flow, ev_to_ebitda, ev_to_sales, enterprise_value)",EOD; server-side .gt/.lt filters available
+price_earnings_ttm,Price to Earnings Ratio (TTM),1,Valuation ratios,DIRECT,"Ratios API (price_to_earnings, price_to_book, price_to_sales, price_to_free_cash_flow, price_to_cash_flow, ev_to_ebitda, ev_to_sales, enterprise_value)",EOD; server-side .gt/.lt filters available
+price_free_cash_flow_ttm,Price to Free Cash Flow (TTM),1,Valuation ratios,DIRECT,"Ratios API (price_to_earnings, price_to_book, price_to_sales, price_to_free_cash_flow, price_to_cash_flow, ev_to_ebitda, ev_to_sales, enterprise_value)",EOD; server-side .gt/.lt filters available
+price_revenue_ttm,Price to Revenue Ratio (TTM),1,Valuation ratios,DIRECT,"Ratios API (price_to_earnings, price_to_book, price_to_sales, price_to_free_cash_flow, price_to_cash_flow, ev_to_ebitda, ev_to_sales, enterprise_value)",EOD; server-side .gt/.lt filters available
+price_sales_ratio,Price to Sales (FY),1,Valuation ratios,DIRECT,"Ratios API (price_to_earnings, price_to_book, price_to_sales, price_to_free_cash_flow, price_to_cash_flow, ev_to_ebitda, ev_to_sales, enterprise_value)",EOD; server-side .gt/.lt filters available
+quick_ratio,Quick Ratio (MRQ),1,Liquidity / leverage / return ratios,DIRECT,"Ratios API (current, quick, cash, debt_to_equity, return_on_assets, return_on_equity)",Ratios API is latest TTM-based; FQ/FY variants computed from statements
+ROC,Rate Of Change (9),10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+earnings_release_date,Recent Earnings Date,1,Events: earnings date,PARTNER,"Benzinga Earnings (date, time, date_status) or TMX Corporate Events",Paid add-on
+RSI,Relative Strength Index (14),10,Technical: oscillator,DIRECT,Technical Indicators API (RSI),One ticker per call; any window and timespan
+RSI7,Relative Strength Index (7),10,Technical: oscillator,DIRECT,Technical Indicators API (RSI),One ticker per call; any window and timespan
+relative_volume_10d_calc,Relative Volume,10,Price & volume: averages,COMPUTE,"Aggregates; Ratios.average_volume (30 day, EOD)",30-day average volume is direct in Ratios
+relative_volume_intraday.5,Relative Volume at Time,1,Price & volume: averages,COMPUTE,"Aggregates; Ratios.average_volume (30 day, EOD)",30-day average volume is direct in Ratios
+research_and_dev_ratio_fy,Research & development Ratio (FY),1,Fundamentals: margins,COMPUTE,Income statement,
+research_and_dev_ratio_ttm,Research & development Ratio (TTM),1,Fundamentals: margins,COMPUTE,Income statement,
+return_on_assets,Return on Assets (TTM),1,Liquidity / leverage / return ratios,DIRECT,"Ratios API (current, quick, cash, debt_to_equity, return_on_assets, return_on_equity)",Ratios API is latest TTM-based; FQ/FY variants computed from statements
+return_on_equity,Return on Equity (TTM),1,Liquidity / leverage / return ratios,DIRECT,"Ratios API (current, quick, cash, debt_to_equity, return_on_assets, return_on_equity)",Ratios API is latest TTM-based; FQ/FY variants computed from statements
+return_on_invested_capital,Return on Invested Capital (TTM),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+total_revenue_yoy_growth_fy,Revenue (Annual YoY Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+revenue_per_employee,Revenue per Employee (FY),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+total_revenue_qoq_growth_fq,Revenue (Quarterly QoQ Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+total_revenue_yoy_growth_fq,Revenue (Quarterly YoY Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+total_revenue_yoy_growth_ttm,Revenue (TTM YoY Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+sector,Sector,1,Reference: classification,MISSING,"Ticker Overview (sic_code, sic_description)",Only SEC SIC code; no sector/industry taxonomy like TradingView
+sell_gen_admin_exp_other_ratio_fy,Selling General & Admin expenses Ratio (FY),1,Fundamentals: margins,COMPUTE,Income statement,
+sell_gen_admin_exp_other_ratio_ttm,Selling General & Admin expenses Ratio (TTM),1,Fundamentals: margins,COMPUTE,Income statement,
+float_shares_outstanding,Shares Float,1,Shares & float,DIRECT,"Float API (free_float, free_float_percent)",Latest value only; definition may differ
+SMA10,Simple Moving Average (10),10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+SMA100,Simple Moving Average (100),10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+SMA20,Simple Moving Average (20),10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+SMA200,Simple Moving Average (200),10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+SMA30,Simple Moving Average (30),10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+SMA5,Simple Moving Average (5),10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+SMA50,Simple Moving Average (50),10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+Stoch.D,"Stochastic %D (14, 3, 3)",10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+Stoch.K,"Stochastic %K (14, 3, 3)",10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+Stoch.RSI.K,"Stochastic RSI Fast (3, 3, 14, 14)",10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+Stoch.RSI.D,"Stochastic RSI Slow (3, 3, 14, 14)",10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+submarket,Submarket,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+subtype,Subtype,1,Reference,DIRECT,"Ticker Overview (name, primary_exchange, type, currency_name, branding)",subtype mapped to ticker type
+Recommend.All,Technical Rating,10,Technical: TV technical rating,COMPUTE,Aggregates + local indicators,TradingView rating formula must be reproduced locally
+total_assets_yoy_growth_fy,Total Assets (Annual YoY Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+total_assets,Total Assets (MRQ),1,Fundamentals: balance sheet,DIRECT,"Balance Sheets API (quarterly, annual)",
+total_assets_qoq_growth_fq,Total Assets (Quarterly QoQ Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+total_assets_yoy_growth_fq,Total Assets (Quarterly YoY Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+total_current_assets,Total Current Assets (MRQ),1,Fundamentals: balance sheet,DIRECT,"Balance Sheets API (quarterly, annual)",
+total_debt_yoy_growth_fy,Total Debt (Annual YoY Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+total_debt,Total Debt (MRQ),1,Fundamentals: balance sheet,COMPUTE,Balance Sheets API (sum of lines),
+total_debt_qoq_growth_fq,Total Debt (Quarterly QoQ Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+total_debt_yoy_growth_fq,Total Debt (Quarterly YoY Growth),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+total_liabilities_fy,Total Liabilities (FY),1,Fundamentals: balance sheet,DIRECT,"Balance Sheets API (quarterly, annual)",
+total_liabilities_fq,Total Liabilities (MRQ),1,Fundamentals: balance sheet,DIRECT,"Balance Sheets API (quarterly, annual)",
+total_revenue,Total Revenue (FY),1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+total_shares_outstanding_fundamental,Total Shares Outstanding,1,Shares & float,DIRECT,Ticker Overview (share_class / weighted_shares_outstanding); Income (diluted_shares_outstanding),
+type,Type,1,Reference,DIRECT,"Ticker Overview (name, primary_exchange, type, currency_name, branding)",subtype mapped to ticker type
+UO,"Ultimate Oscillator (7, 14, 28)",10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+earnings_release_next_date,Upcoming Earnings Date,1,Events: earnings date,PARTNER,"Benzinga Earnings (date, time, date_status) or TMX Corporate Events",Paid add-on
+Volatility.D,Volatility,1,Technical: volatility,COMPUTE,Aggregates (OHLCV bars),
+Volatility.M,Volatility Month,1,Technical: volatility,COMPUTE,Aggregates (OHLCV bars),
+Volatility.W,Volatility Week,1,Technical: volatility,COMPUTE,Aggregates (OHLCV bars),
+volume,Volume,10,Price & volume: current bar,DIRECT,"Snapshot (day, min, prevDay, todaysChange)",Full-market snapshot gives all US tickers in one call
+Value.Traded,Volume*Price,10,Price & volume: current bar,COMPUTE,Snapshot (day + prevDay),Simple arithmetic on snapshot values
+VWAP,Volume Weighted Average Price,10,Price & volume: current bar,DIRECT,"Snapshot (day, min, prevDay, todaysChange)",Full-market snapshot gives all US tickers in one call
+VWMA,Volume Weighted Moving Average (20),10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Perf.W,Weekly Performance,1,Performance: price change,COMPUTE,Aggregates (daily bars),
+price_52_week_high,52 Week High,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),"History from 10/09/2003 only, so all-time values are limited to that start"
+price_52_week_low,52 Week Low,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),"History from 10/09/2003 only, so all-time values are limited to that start"
+W.R,Williams Percent Range (14),10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+Perf.Y,Yearly Performance,1,Performance: price change,COMPUTE,Aggregates (daily bars),
+beta_1_year,1-Year Beta,1,Technical: volatility,COMPUTE,Aggregates (stock + index/ETF bars),Needs benchmark series
+Perf.YTD,YTD Performance,1,Performance: price change,COMPUTE,Aggregates (daily bars),
+Perf.5Y,5Y Performance,1,Performance: price change,COMPUTE,Aggregates (daily bars),
+continuous_dividend_growth,Continuous Dividend Growth,1,Dividends: ratios,COMPUTE,Dividends API + income / cash flow statements,
+continuous_dividend_payout,Continuous Dividend Payout,1,Dividends: ratios,COMPUTE,Dividends API + income / cash flow statements,
+dividend_payout_ratio_ttm,Dividend Payout Ratio (TTM),1,Dividends: ratios,COMPUTE,Dividends API + income / cash flow statements,
+dividends_yield,Dividend Yield %,1,Dividends: yield,DIRECT,Ratios.dividend_yield (EOD),Recent/upcoming variants computed from Dividends API
+dividends_yield_current,Dividend Yield % (Current),1,Dividends: yield,DIRECT,Ratios.dividend_yield (EOD),Recent/upcoming variants computed from Dividends API
+total_cash_dividends_paid_ttm,Total Cash Dividends Paid (TTM),1,Fundamentals: cash flow,DIRECT,Cash Flow (dividends) / Income (preferred_stock_dividends_declared),Half-year (_fh) not provided
+cash_dividend_coverage_ratio_ttm,Cash Dividend Coverage Ratio (TTM),1,Dividends: ratios,COMPUTE,Dividends API + income / cash flow statements,
+cash_dividend_coverage_ratio_fy,Cash Dividend Coverage Ratio (FY),1,Dividends: ratios,COMPUTE,Dividends API + income / cash flow statements,
+capital_expenditures_ttm,Capital Expenditures (TTM),1,Fundamentals: cash flow,DIRECT,Cash Flow Statements API; Ratios.free_cash_flow,Capex = purchase_of_property_plant_and_equipment
+capital_expenditures_fy,Capital Expenditures (FY),1,Fundamentals: cash flow,DIRECT,Cash Flow Statements API; Ratios.free_cash_flow,Capex = purchase_of_property_plant_and_equipment
+capital_expenditures_fq,Capital Expenditures (MRQ),1,Fundamentals: cash flow,DIRECT,Cash Flow Statements API; Ratios.free_cash_flow,Capex = purchase_of_property_plant_and_equipment
+capital_expenditures_yoy_growth_fy,Capital Expenditures Growth % (YoY),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+cash_f_financing_activities_ttm,Cash from Financing Activities (TTM),1,Fundamentals: cash flow,DIRECT,Cash Flow Statements API; Ratios.free_cash_flow,Capex = purchase_of_property_plant_and_equipment
+cash_f_financing_activities_fy,Cash from Financing Activities (FY),1,Fundamentals: cash flow,DIRECT,Cash Flow Statements API; Ratios.free_cash_flow,Capex = purchase_of_property_plant_and_equipment
+cash_f_investing_activities_ttm,Cash from Investing Activities (TTM),1,Fundamentals: cash flow,DIRECT,Cash Flow Statements API; Ratios.free_cash_flow,Capex = purchase_of_property_plant_and_equipment
+cash_f_investing_activities_fy,Cash from Investing Activities (FY),1,Fundamentals: cash flow,DIRECT,Cash Flow Statements API; Ratios.free_cash_flow,Capex = purchase_of_property_plant_and_equipment
+cash_f_operating_activities_ttm,Cash from Operating Activities (TTM),1,Fundamentals: cash flow,DIRECT,Cash Flow Statements API; Ratios.free_cash_flow,Capex = purchase_of_property_plant_and_equipment
+cash_f_operating_activities_fy,Cash from Operating Activities (FY),1,Fundamentals: cash flow,DIRECT,Cash Flow Statements API; Ratios.free_cash_flow,Capex = purchase_of_property_plant_and_equipment
+free_cash_flow,Free Cash Flow,1,Fundamentals: cash flow,DIRECT,Cash Flow Statements API; Ratios.free_cash_flow,Capex = purchase_of_property_plant_and_equipment
+free_cash_flow_ttm,Free Cash Flow (TTM),1,Fundamentals: cash flow,DIRECT,Cash Flow Statements API; Ratios.free_cash_flow,Capex = purchase_of_property_plant_and_equipment
+free_cash_flow_fy,Free Cash Flow (FY),1,Fundamentals: cash flow,DIRECT,Cash Flow Statements API; Ratios.free_cash_flow,Capex = purchase_of_property_plant_and_equipment
+long_term_debt_fq,Long Term Debt (MRQ),1,Fundamentals: balance sheet,DIRECT,"Balance Sheets API (quarterly, annual)",
+long_term_debt_fy,Long Term Debt (FY),1,Fundamentals: balance sheet,DIRECT,"Balance Sheets API (quarterly, annual)",
+short_term_debt_fq,Short Term Debt (MRQ),1,Fundamentals: balance sheet,DIRECT,"Balance Sheets API (quarterly, annual)",
+short_term_debt_fy,Short Term Debt (FY),1,Fundamentals: balance sheet,DIRECT,"Balance Sheets API (quarterly, annual)",
+total_equity_fq,Total Equity (MRQ),1,Fundamentals: balance sheet,DIRECT,"Balance Sheets API (quarterly, annual)",
+total_equity_fy,Total Equity (FY),1,Fundamentals: balance sheet,DIRECT,"Balance Sheets API (quarterly, annual)",
+total_current_liabilities_fq,Total Current Liabilities (MRQ),1,Fundamentals: balance sheet,DIRECT,"Balance Sheets API (quarterly, annual)",
+goodwill_fq,Goodwill (MRQ),1,Fundamentals: balance sheet,DIRECT,"Balance Sheets API (quarterly, annual)",
+goodwill_fy,Goodwill (FY),1,Fundamentals: balance sheet,DIRECT,"Balance Sheets API (quarterly, annual)",
+oper_income_ttm,Operating Income (TTM),1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+oper_income_fy,Operating Income (FY),1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+research_and_dev_fy,Research & Development (FY),1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+research_and_dev_fq,Research & Development (MRQ),1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+revenue_forecast_fq,Revenue Estimate (MRQ),1,Analyst: estimates & surprises,PARTNER,"Benzinga Earnings (estimated_eps, estimated_revenue, eps_surprise, revenue_surprise)",Paid add-on
+earnings_yield,Earnings Yield %,1,Valuation ratios,COMPUTE,Statements + price,
+price_target_average,Target Price (Average),1,Analyst: ratings & targets,PARTNER,Benzinga Consensus Ratings / Analyst Ratings,Paid add-on
+enterprise_value_to_ebit_ttm,EV to EBIT (TTM),1,Valuation ratios,COMPUTE,Statements + price,
+enterprise_value_to_revenue_ttm,EV to Revenue (TTM),1,Valuation ratios,DIRECT,"Ratios API (price_to_earnings, price_to_book, price_to_sales, price_to_free_cash_flow, price_to_cash_flow, ev_to_ebitda, ev_to_sales, enterprise_value)",EOD; server-side .gt/.lt filters available
+enterprise_value_to_gross_profit_ttm,EV to Gross Profit (TTM),1,Valuation ratios,COMPUTE,Statements + price,
+non_gaap_price_to_earnings_per_share_forecast_next_fy,Forward P/E (Non-GAAP),1,Analyst: forward valuation,PARTNER,Benzinga Earnings estimates + price,Compute ratio from partner estimate
+price_earnings_growth_ttm,PEG Ratio (TTM),1,Valuation ratios,COMPUTE,Statements + price,
+price_to_cash_f_operating_activities_ttm,Price to Cash Flow (TTM),1,Valuation ratios,DIRECT,"Ratios API (price_to_earnings, price_to_book, price_to_sales, price_to_free_cash_flow, price_to_cash_flow, ev_to_ebitda, ev_to_sales, enterprise_value)",EOD; server-side .gt/.lt filters available
+price_to_cash_ratio,Price to Cash Ratio,1,Valuation ratios,COMPUTE,Statements + price,
+price_to_working_capital_fq,Price to Net Working Capital,1,Valuation ratios,COMPUTE,Statements + price,
+gross_margin_ttm,Gross Margin % (TTM),1,Fundamentals: margins,COMPUTE,Income statement,
+net_margin_ttm,Net Margin % (TTM),1,Fundamentals: margins,COMPUTE,Income statement,
+operating_margin_ttm,Operating Margin % (TTM),1,Fundamentals: margins,COMPUTE,Income statement,
+ebitda_margin_ttm,EBITDA Margin % (TTM),1,Fundamentals: margins,COMPUTE,Income statement,
+ebitda_margin_fy,EBITDA Margin % (FY),1,Fundamentals: margins,COMPUTE,Income statement,
+quick_ratio_fq,Quick Ratio (MRQ),1,Liquidity / leverage / return ratios,DIRECT,"Ratios API (current, quick, cash, debt_to_equity, return_on_assets, return_on_equity)",Ratios API is latest TTM-based; FQ/FY variants computed from statements
+current_ratio_fq,Current Ratio (MRQ),1,Liquidity / leverage / return ratios,DIRECT,"Ratios API (current, quick, cash, debt_to_equity, return_on_assets, return_on_equity)",Ratios API is latest TTM-based; FQ/FY variants computed from statements
+return_on_assets_fq,Return on Assets % (MRQ),1,Liquidity / leverage / return ratios,DIRECT,"Ratios API (current, quick, cash, debt_to_equity, return_on_assets, return_on_equity)",Ratios API is latest TTM-based; FQ/FY variants computed from statements
+return_on_equity_fq,Return on Equity % (MRQ),1,Liquidity / leverage / return ratios,DIRECT,"Ratios API (current, quick, cash, debt_to_equity, return_on_assets, return_on_equity)",Ratios API is latest TTM-based; FQ/FY variants computed from statements
+return_on_invested_capital_fq,Return on Invested Capital % (MRQ),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+return_on_common_equity_ttm,Return on Common Equity % (TTM),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+return_on_capital_employed_fq,Return on Capital Employed % (MRQ),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+return_on_total_capital_fq,Return on Total Capital % (MRQ),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+return_on_tang_assets_fq,Return on Tangible Assets % (MRQ),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+return_on_tang_assets_fy,Return on Tangible Assets % (FY),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+return_on_tang_equity_fq,Return on Tangible Equity % (MRQ),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+return_on_tang_equity_fy,Return on Tangible Equity % (FY),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+net_debt_to_ebitda_fq,Net Debt to EBITDA (MRQ),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+debt_to_revenue_ttm,Debt to Revenue (TTM),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+debt_to_asset_fq,Debt to Assets (MRQ),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+debt_to_asset_fy,Debt to Assets (FY),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+shrhldrs_equity_to_total_assets_fq,Equity to Assets (MRQ),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+shrhldrs_equity_to_total_assets_fy,Equity to Assets (FY),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+cash_n_short_term_invest_to_total_debt_fq,Cash to Debt Ratio (MRQ),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+cash_n_short_term_invest_to_total_debt_fy,Cash to Debt Ratio (FY),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+cash_n_short_term_invest_to_total_current_liabilities_fy,Cash Ratio (FY),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+total_debt_to_capital_fq,Total Debt to Capital (MRQ),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+total_debt_to_capital_fy,Total Debt to Capital (FY),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+interst_cover_ttm,Interest Coverage (TTM),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+interst_cover_fy,Interest Coverage (FY),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+ebitda_interst_cover_ttm,EBITDA Interest Coverage (TTM),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+ebitda_interst_cover_fy,EBITDA Interest Coverage (FY),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+ebitda_less_capex_interst_cover_ttm,EBITDA Less CapEx Interest Coverage (TTM),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+ebitda_less_capex_interst_cover_fy,EBITDA Less CapEx Interest Coverage (FY),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+invent_turnover_current,Inventory Turnover (Current),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+invent_turnover_fy,Inventory Turnover (FY),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+asset_turnover_fy,Asset Turnover (FY),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+receivables_turnover_fy,Receivables Turnover (FY),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+fixed_assets_turnover_fy,Fixed Assets Turnover (FY),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+buyback_yield,Buyback Yield %,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+share_buyback_ratio_fq,Share Buyback Ratio % (MRQ),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+share_buyback_ratio_fy,Share Buyback Ratio % (FY),1,Fundamentals: margins,COMPUTE,Income statement,
+sustainable_growth_rate_ttm,Sustainable Growth Rate (TTM),1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+effective_interest_rate_on_debt_ttm,Effective Interest Rate on Debt (TTM),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+effective_interest_rate_on_debt_fy,Effective Interest Rate on Debt (FY),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+altman_z_score_ttm,Altman Z-Score (TTM),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+piotroski_f_score_ttm,Piotroski F-Score (TTM),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+sloan_ratio_ttm,Sloan Ratio % (TTM),1,Fundamentals: margins,COMPUTE,Income statement,
+zmijewski_score_ttm,Zmijewski Score (TTM),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+graham_numbers_fy,Graham's Number (FY),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+graham_numbers_ttm,Graham's Number (TTM),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+tobin_q_ratio_fy,Tobin's Q Ratio (FY),1,Fundamentals: margins,COMPUTE,Income statement,
+tobin_q_ratio_fq,Tobin's Q Ratio (MRQ),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+ncavps_ratio_fq,NCAV per Share (MRQ),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+ncavps_ratio_fy,NCAV per Share (FY),1,Fundamentals: margins,COMPUTE,Income statement,
+book_value_per_share_fq,Book Value per Share (MRQ),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+free_cash_flow_per_share_ttm,Free Cash Flow per Share (TTM),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+revenue_per_share_ttm,Revenue per Share (TTM),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+revenue_per_share_fy,Revenue per Share (FY),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+ebitda_per_share_ttm,EBITDA per Share (TTM),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+cash_per_share_fq,Cash per Share (MRQ),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+operating_cash_flow_per_share_ttm,Operating Cash Flow per Share (TTM),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+ebit_per_share_ttm,EBIT per Share (TTM),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+working_capital_per_share_fq,Working Capital per Share (MRQ),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+total_debt_per_share_fq,Total Debt per Share (MRQ),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+capex_per_share_ttm,CapEx per Share (TTM),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+book_tangible_per_share_fq,Tangible Book Value per Share (MRQ),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+net_income_per_employee_fy,Net Income per Employee (FY),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+ebitda_per_employee_fy,EBITDA per Employee (FY),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+total_assets_per_employee_fy,Total Assets per Employee (FY),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+total_debt_per_employee_fy,Total Debt per Employee (FY),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+free_cash_flow_per_employee_fy,Free Cash Flow per Employee (FY),1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+recommendation_mark,Analyst Rating,1,Analyst: ratings & targets,PARTNER,Benzinga Consensus Ratings / Analyst Ratings,Paid add-on
+isin,ISIN,1,Reference: identifiers,MISSING,"Ticker Overview (cik, composite_figi, share_class_figi)",ISIN only in IPO records; FIGI and CIK available instead
+cusip,CUSIP,1,Reference: identifiers,MISSING,"Ticker Overview (cik, composite_figi, share_class_figi)",ISIN only in IPO records; FIGI and CIK available instead
+indexes,Index Membership,1,Reference: index membership,MISSING,,No S&P / Nasdaq index membership lists
+fiscal_period_fy,Fiscal Period (FY),1,Fundamentals: period info,DIRECT,"Statements (fiscal_year, fiscal_quarter, period_end, timeframe)",
+fiscal_period_end_fy,Fiscal Period End (FY),1,Fundamentals: period info,DIRECT,"Statements (fiscal_year, fiscal_quarter, period_end, timeframe)",
+fiscal_period_end_fq,Fiscal Period End (MRQ),1,Fundamentals: period info,DIRECT,"Statements (fiscal_year, fiscal_quarter, period_end, timeframe)",
+float_shares_percent_current,Free Float %,1,Shares & float,DIRECT,"Float API (free_float, free_float_percent)",Latest value only; definition may differ
+total_shares_outstanding,Total Shares Outstanding (Raw),1,Shares & float,DIRECT,Ticker Overview (share_class / weighted_shares_outstanding); Income (diluted_shares_outstanding),
+market,Market,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+Perf.1W.MarketCap,Market Cap Performance 1W %,1,Performance: market cap change,COMPUTE,Aggregates + shares outstanding history,
+Perf.1M.MarketCap,Market Cap Performance 1M %,1,Performance: market cap change,COMPUTE,Aggregates + shares outstanding history,
+Perf.3M.MarketCap,Market Cap Performance 3M %,1,Performance: market cap change,COMPUTE,Aggregates + shares outstanding history,
+Perf.6M.MarketCap,Market Cap Performance 6M %,1,Performance: market cap change,COMPUTE,Aggregates + shares outstanding history,
+Perf.Y.MarketCap,Market Cap Performance 1Y %,1,Performance: market cap change,COMPUTE,Aggregates + shares outstanding history,
+Perf.YTD.MarketCap,Market Cap Performance YTD %,1,Performance: market cap change,COMPUTE,Aggregates + shares outstanding history,
+ATRP,Average True Range % (14),10,Technical: volatility,COMPUTE,Aggregates (OHLCV bars),
+expected_annual_dividends,Expected Annual Dividends,1,Dividends: per share,COMPUTE,Dividends API (sum cash_amount by period),
+earnings_per_share_forecast_fq,Earnings per Share Forecast FQ,1,Analyst: estimates & surprises,PARTNER,"Benzinga Earnings (estimated_eps, estimated_revenue, eps_surprise, revenue_surprise)",Paid add-on
+operating_cash_flow_per_share_fy,Operating Cash Flow per Share FY,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+zmijewski_score_fy,Zmijewski Score FY,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+ipo_offered_shares_primary,IPO Offered Shares Primary,1,Events: IPO,MISSING,,"Primary/secondary split, SPAC flag, offer time not in IPOs API"
+earnings_per_share_diluted_fq,Earnings per Share Diluted FQ,1,Fundamentals: income statement,DIRECT,Income Statements API (basic/diluted_earnings_per_share),
+ipo_offer_price_usd,IPO Offer Price Usd,1,Events: IPO,DIRECT,"IPOs API (final_issue_price, max_shares_offered, lowest/highest_offer_price, total_offer_size, announced_date, listing_date, shares_outstanding)",
+current_session,Current Session,1,Reference,DIRECT,Market Status API,
+book_value_per_share_fh,Book Value per Share Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+operating_cash_flow_per_share_fh,Operating Cash Flow per Share Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+earnings_per_share_forecast_next_fh,Earnings per Share Forecast Next Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+net_income_fy,Net Income FY,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+net_margin_fy,Net Margin FY,1,Fundamentals: margins,COMPUTE,Income statement,
+earnings_release_next_trading_date_fy,Earnings Release Next Trading Date FY,1,Events: earnings date,PARTNER,"Benzinga Earnings (date, time, date_status) or TMX Corporate Events",Paid add-on
+strategy,Strategy,1,ETF: profile,PARTNER,ETF Global Profiles & Exposure / Taxonomies,Paid add-on
+category,Category,1,ETF: profile,PARTNER,ETF Global Profiles & Exposure / Taxonomies,Paid add-on
+next_dividend_date,Next Dividend Date,1,Dividends: events,DIRECT,"Dividends API (ex_dividend_date, pay_date, cash_amount, frequency)",
+cash_f_investing_activities_fq,Cash f Investing Activities FQ,1,Fundamentals: cash flow,DIRECT,Cash Flow Statements API; Ratios.free_cash_flow,Capex = purchase_of_property_plant_and_equipment
+frequency_recent,Frequency Recent,1,Dividends: events,DIRECT,"Dividends API (ex_dividend_date, pay_date, cash_amount, frequency)",
+recommendation_sell,Recommendation Sell,1,Analyst: ratings & targets,PARTNER,Benzinga Consensus Ratings / Analyst Ratings,Paid add-on
+etf_fund_currency,Etf Fund Currency,1,ETF: profile,PARTNER,ETF Global Profiles & Exposure / Taxonomies,Paid add-on
+debt_to_assets,Debt to Assets,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+ex_dividend_date_upcoming,Ex Dividend Date Upcoming,1,Dividends: events,DIRECT,"Dividends API (ex_dividend_date, pay_date, cash_amount, frequency)",
+weight_top_10,Weight Top 10,1,ETF: profile,PARTNER,ETF Global Constituents,Compute top-N weight from holdings
+capital_expenditures_unchanged_ttm_h,Capital Expenditures Unchanged TTM H,1,Fundamentals: cash flow,DIRECT,Cash Flow Statements API; Ratios.free_cash_flow,Capex = purchase_of_property_plant_and_equipment
+float_shares_outstanding_current,Float Shares Outstanding Current,1,Shares & float,DIRECT,"Float API (free_float, free_float_percent)",Latest value only; definition may differ
+long_term_capital,Long Term Capital,1,Fundamentals: balance sheet,COMPUTE,Balance Sheets API (sum of lines),
+earnings_per_share_diluted_fy,Earnings per Share Diluted FY,1,Fundamentals: income statement,DIRECT,Income Statements API (basic/diluted_earnings_per_share),
+rtc,Rtc,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+inverse_flag,Inverse Flag,1,ETF: profile,PARTNER,ETF Global Profiles & Exposure / Taxonomies,Paid add-on
+sum_for_enterprise_value,Sum For Enterprise Value,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+recommendation_over,Recommendation Over,1,Analyst: ratings & targets,PARTNER,Benzinga Consensus Ratings / Analyst Ratings,Paid add-on
+minmove2,Minmove2,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+earnings_release_trading_date_fq,Earnings Release Trading Date FQ,1,Events: earnings date,PARTNER,"Benzinga Earnings (date, time, date_status) or TMX Corporate Events",Paid add-on
+brand,Brand,1,ETF: profile,PARTNER,ETF Global Profiles & Exposure / Taxonomies,Paid add-on
+total_assets_to_equity_fq,Total Assets to Equity FQ,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+all_time_open,All Time Open,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),"History from 10/09/2003 only, so all-time values are limited to that start"
+dps_common_stock_prim_issue_fy_h,DPS Common Stock Prim Issue FY H,1,Dividends: per share,COMPUTE,Dividends API (sum cash_amount by period),
+total_assets_fy,Total Assets FY,1,Fundamentals: balance sheet,DIRECT,"Balance Sheets API (quarterly, annual)",
+free_cash_flow_per_share_current,Free Cash Flow per Share Current,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+current_ratio_current,Current Ratio Current,1,Liquidity / leverage / return ratios,DIRECT,"Ratios API (current, quick, cash, debt_to_equity, return_on_assets, return_on_equity)",Ratios API is latest TTM-based; FQ/FY variants computed from statements
+operating_margin_fy,Operating Margin FY,1,Fundamentals: margins,COMPUTE,Income statement,
+asset_class,Asset Class,1,ETF: profile,PARTNER,ETF Global Profiles & Exposure / Taxonomies,Paid add-on
+ipo_deal_amount_usd,IPO Deal Amount Usd,1,Events: IPO,DIRECT,"IPOs API (final_issue_price, max_shares_offered, lowest/highest_offer_price, total_offer_size, announced_date, listing_date, shares_outstanding)",
+price_earnings_forward_fy,Price Earnings Forward FY,1,Analyst: forward valuation,PARTNER,Benzinga Earnings estimates + price,Compute ratio from partner estimate
+dividend_payout_ratio_percent_fy,Dividend Payout Ratio Percent FY,1,Dividends: ratios,COMPUTE,Dividends API + income / cash flow statements,
+eps_diluted_growth_percent_fy,EPS Diluted Growth Percent FY,1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+total_revenue_ttm,Total Revenue TTM,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+earnings_publication_type_fq,Earnings Publication Type FQ,1,Events: earnings date,PARTNER,"Benzinga Earnings (date, time, date_status) or TMX Corporate Events",Paid add-on
+recommendation_under,Recommendation Under,1,Analyst: ratings & targets,PARTNER,Benzinga Consensus Ratings / Analyst Ratings,Paid add-on
+capex_per_share_current,Capex per Share Current,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+eps_diluted_growth_percent_fq,EPS Diluted Growth Percent FQ,1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+total_revenue_fq_h,Total Revenue FQ H,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+has_ipo_details_visible,Has IPO Details Visible,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+shrhldrs_equity_fy,Shrhldrs Equity FY,1,Fundamentals: balance sheet,DIRECT,"Balance Sheets API (quarterly, annual)",
+k1_form,K1 Form,1,Reference,MISSING,,
+cash_per_share_fh,Cash per Share Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+return_on_assets_fy,Return on Assets FY,1,Liquidity / leverage / return ratios,DIRECT,"Ratios API (current, quick, cash, debt_to_equity, return_on_assets, return_on_equity)",Ratios API is latest TTM-based; FQ/FY variants computed from statements
+rates_fq,Rates FQ,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+revenue_per_share_current,Revenue per Share Current,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+total_cash_dividends_paid_fh,Total Cash Dividends Paid Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+enterprise_value_ebitda_current,Enterprise Value EBITDA Current,1,Valuation ratios,DIRECT,"Ratios API (price_to_earnings, price_to_book, price_to_sales, price_to_free_cash_flow, price_to_cash_flow, ev_to_ebitda, ev_to_sales, enterprise_value)",EOD; server-side .gt/.lt filters available
+rates_dividend_recent,Rates Dividend Recent,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+ebit_per_share_fy,EBIT per Share FY,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+return_on_capital_employed_fy,Return on Capital Employed FY,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+free_cash_flow_per_share_fq,Free Cash Flow per Share FQ,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+earnings_release_next_trading_date_fq,Earnings Release Next Trading Date FQ,1,Events: earnings date,PARTNER,"Benzinga Earnings (date, time, date_status) or TMX Corporate Events",Paid add-on
+actively_managed,Actively Managed,1,ETF: profile,PARTNER,ETF Global Profiles & Exposure / Taxonomies,Paid add-on
+ucits_compliant_flag,Ucits Compliant Flag,1,ETF: profile,MISSING,,European fund status; massive ETF data is US
+total_debt_per_share_fy,Total Debt per Share FY,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+revenue_fq,Revenue FQ,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+recommendation_total,Recommendation Total,1,Analyst: ratings & targets,PARTNER,Benzinga Consensus Ratings / Analyst Ratings,Paid add-on
+all_time_high_day,All Time High Day,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),"History from 10/09/2003 only, so all-time values are limited to that start"
+operating_cash_flow_per_share_current,Operating Cash Flow per Share Current,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+ebitda_ttm,EBITDA TTM,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+postmarket_time,Postmarket Time,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+dps_common_stock_prim_issue_ttm,DPS Common Stock Prim Issue TTM,1,Dividends: per share,COMPUTE,Dividends API (sum cash_amount by period),
+has_ipo_data,Has IPO Data,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+dividend_ex_date_upcoming,Dividend Ex Date Upcoming,1,Dividends: events,DIRECT,"Dividends API (ex_dividend_date, pay_date, cash_amount, frequency)",
+working_capital_fq,Working Capital FQ,1,Fundamentals: balance sheet,COMPUTE,Balance Sheets API (sum of lines),
+net_income_fh,Net Income Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+country_code_fund,Country Code Fund,1,ETF: profile,PARTNER,ETF Global Profiles & Exposure / Taxonomies,Paid add-on
+oper_income_fh,Oper Income Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+earnings_release_next_time,Earnings Release Next Time,1,Events: earnings date,PARTNER,"Benzinga Earnings (date, time, date_status) or TMX Corporate Events",Paid add-on
+sell_gen_admin_exp_other_ttm,Sell Gen Admin Exp Other TTM,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+issuer,Issuer,1,ETF: profile,PARTNER,ETF Global Profiles & Exposure / Taxonomies,Paid add-on
+cash_f_investing_activities_fh,Cash f Investing Activities Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+update-time,Update-time,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+net_income_fq_h,Net Income FQ H,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+index_provider,Index Provider,1,ETF: profile,PARTNER,ETF Global Profiles & Exposure / Taxonomies,Paid add-on
+average_volume,Average Volume,1,Price & volume: averages,COMPUTE,"Aggregates; Ratios.average_volume (30 day, EOD)",30-day average volume is direct in Ratios
+dividend_amount_upcoming,Dividend Amount Upcoming,1,Dividends: events,DIRECT,"Dividends API (ex_dividend_date, pay_date, cash_amount, frequency)",
+long_term_debt_to_equity_fq,Long Term Debt to Equity FQ,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+rates_mc,Rates Mc,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+ipo_shares_outstanding,IPO Shares Outstanding,1,Events: IPO,DIRECT,"IPOs API (final_issue_price, max_shares_offered, lowest/highest_offer_price, total_offer_size, announced_date, listing_date, shares_outstanding)",
+net_margin,Net Margin,1,Fundamentals: margins,COMPUTE,Income statement,
+number_of_employees_fy,Number of Employees FY,1,Company: employees,DIRECT,Ticker Overview.total_employees,"Current value only, no FY history"
+working_capital_per_share_fh,Working Capital per Share Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+amount_upcoming,Amount Upcoming,1,Dividends: events,DIRECT,"Dividends API (ex_dividend_date, pay_date, cash_amount, frequency)",
+return_of_invested_capital_percent_ttm,Return of Invested Capital Percent TTM,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+premarket_time,Premarket Time,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+dividends_yield_fy,Dividends Yield FY,1,Dividends: yield,DIRECT,Ratios.dividend_yield (EOD),Recent/upcoming variants computed from Dividends API
+pricescale,Pricescale,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+minmov,Minmov,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+indicated_annual_dividend,Indicated Annual Dividend,1,Dividends: per share,COMPUTE,Dividends API (sum cash_amount by period),
+receivables_turnover_fq,Receivables Turnover FQ,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+gross_profit_ttm_h,Gross Profit TTM H,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+working_capital_per_share_current,Working Capital per Share Current,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+capital_expenditures_fh,Capital Expenditures Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+fractional,Fractional,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+gross_margin_percent_ttm,Gross Margin Percent TTM,1,Fundamentals: margins,COMPUTE,Income statement,
+dividends_yield_fq,Dividends Yield FQ,1,Dividends: yield,DIRECT,Ratios.dividend_yield (EOD),Recent/upcoming variants computed from Dividends API
+gross_profit_ttm,Gross Profit TTM,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+leveraged_flag,Leveraged Flag,1,ETF: profile,PARTNER,ETF Global Profiles & Exposure / Taxonomies,Paid add-on
+ipo_announcement_date,IPO Announcement Date,1,Events: IPO,DIRECT,"IPOs API (final_issue_price, max_shares_offered, lowest/highest_offer_price, total_offer_size, announced_date, listing_date, shares_outstanding)",
+debt_to_revenue_fy,Debt to Revenue FY,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+book_value_per_share_fy,Book Value per Share FY,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+ebit_per_share_fh,EBIT per Share Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+free_cash_flow_fy_h,Free Cash Flow FY H,1,Fundamentals: cash flow,DIRECT,Cash Flow Statements API; Ratios.free_cash_flow,Capex = purchase_of_property_plant_and_equipment
+cash_f_operating_activities_fq,Cash f Operating Activities FQ,1,Fundamentals: cash flow,DIRECT,Cash Flow Statements API; Ratios.free_cash_flow,Capex = purchase_of_property_plant_and_equipment
+dps_common_stock_prim_issue_fh,DPS Common Stock Prim Issue Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+net_debt_fq,Net Debt FQ,1,Fundamentals: balance sheet,COMPUTE,Balance Sheets API (sum of lines),
+total_assets_fq,Total Assets FQ,1,Fundamentals: balance sheet,DIRECT,"Balance Sheets API (quarterly, annual)",
+dividend_payment_date_upcoming,Dividend Payment Date Upcoming,1,Dividends: events,DIRECT,"Dividends API (ex_dividend_date, pay_date, cash_amount, frequency)",
+fiscal_period_current,Fiscal Period Current,1,Fundamentals: period info,DIRECT,"Statements (fiscal_year, fiscal_quarter, period_end, timeframe)",
+free_cash_flow_per_share_fy,Free Cash Flow per Share FY,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+rates_earnings_next_fq,Rates Earnings Next FQ,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+frequency_upcoming,Frequency Upcoming,1,Dividends: events,DIRECT,"Dividends API (ex_dividend_date, pay_date, cash_amount, frequency)",
+free_cash_flow_ttm_h,Free Cash Flow TTM H,1,Fundamentals: cash flow,DIRECT,Cash Flow Statements API; Ratios.free_cash_flow,Capex = purchase_of_property_plant_and_equipment
+book_tangible_per_share_fy,Book Tangible per Share FY,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+revenue_per_employee_fy,Revenue per Employee FY,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+all_time_low_day,All Time Low Day,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),"History from 10/09/2003 only, so all-time values are limited to that start"
+oper_income_per_employee_fy,Oper Income per Employee FY,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+ebitda_fy,EBITDA FY,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+price_target_low,Price Target Low,1,Analyst: ratings & targets,PARTNER,Benzinga Consensus Ratings / Analyst Ratings,Paid add-on
+sloan_ratio_fy,Sloan Ratio FY,1,Fundamentals: margins,COMPUTE,Income statement,
+debt_to_equity_fq,Debt to Equity FQ,1,Liquidity / leverage / return ratios,DIRECT,"Ratios API (current, quick, cash, debt_to_equity, return_on_assets, return_on_equity)",Ratios API is latest TTM-based; FQ/FY variants computed from statements
+earnings_per_share_basic_fy,Earnings per Share Basic FY,1,Fundamentals: income statement,DIRECT,Income Statements API (basic/diluted_earnings_per_share),
+earnings_per_share_diluted_fh,Earnings per Share Diluted Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+earnings_per_share_diluted_ttm_h,Earnings per Share Diluted TTM H,1,Fundamentals: income statement,DIRECT,Income Statements API (basic/diluted_earnings_per_share),
+earnings_per_share_fy,Earnings per Share FY,1,Fundamentals: income statement,DIRECT,Income Statements API (basic/diluted_earnings_per_share),
+price_target_median,Price Target Median,1,Analyst: ratings & targets,PARTNER,Benzinga Consensus Ratings / Analyst Ratings,Paid add-on
+free_cash_flow_fh,Free Cash Flow Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+sustainable_growth_rate_fy,Sustainable Growth Rate FY,1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+dividend_yield_upcoming,Dividend Yield Upcoming,1,Dividends: yield,DIRECT,Ratios.dividend_yield (EOD),Recent/upcoming variants computed from Dividends API
+net_income_fq,Net Income FQ,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+rates_fh,Rates Fh,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+top_revenue_country_code,Top Revenue Country Code,1,Reference,MISSING,,
+debt_to_equity_fy,Debt to Equity FY,1,Liquidity / leverage / return ratios,DIRECT,"Ratios API (current, quick, cash, debt_to_equity, return_on_assets, return_on_equity)",Ratios API is latest TTM-based; FQ/FY variants computed from statements
+earnings_per_share_fh,Earnings per Share Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+payment_date_upcoming,Payment Date Upcoming,1,Dividends: events,DIRECT,"Dividends API (ex_dividend_date, pay_date, cash_amount, frequency)",
+earnings_per_share_basic_fq,Earnings per Share Basic FQ,1,Fundamentals: income statement,DIRECT,Income Statements API (basic/diluted_earnings_per_share),
+price_sales_current,Price Sales Current,1,Valuation ratios,DIRECT,"Ratios API (price_to_earnings, price_to_book, price_to_sales, price_to_free_cash_flow, price_to_cash_flow, ev_to_ebitda, ev_to_sales, enterprise_value)",EOD; server-side .gt/.lt filters available
+nav,Nav,1,"ETF: NAV, AUM, flows",PARTNER,"ETF Global Fund Flows / Profiles (nav, fund_flow, aum, discount_premium)",Paid add-on; perf values computed from history
+free_cash_flow_per_share_fh,Free Cash Flow per Share Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+focus,Focus,1,ETF: profile,PARTNER,ETF Global Profiles & Exposure / Taxonomies,Paid add-on
+rates_dividend_upcoming,Rates Dividend Upcoming,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+launch_date,Launch Date,1,ETF: profile,PARTNER,ETF Global Profiles & Exposure / Taxonomies,Paid add-on
+last_report_frequency,Last Report Frequency,1,Fundamentals: period info,DIRECT,"Statements (fiscal_year, fiscal_quarter, period_end, timeframe)",
+capex_per_share_fh,Capex per Share Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+gross_profit_fy,Gross Profit FY,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+dividend_ex_date_recent,Dividend Ex Date Recent,1,Dividends: events,DIRECT,"Dividends API (ex_dividend_date, pay_date, cash_amount, frequency)",
+ipo_blank_check_flag,IPO Blank Check Flag,1,Events: IPO,MISSING,,"Primary/secondary split, SPAC flag, offer time not in IPOs API"
+recommendation_hold,Recommendation Hold,1,Analyst: ratings & targets,PARTNER,Benzinga Consensus Ratings / Analyst Ratings,Paid add-on
+fiscal_period_fy_h,Fiscal Period FY H,1,Fundamentals: period info,DIRECT,"Statements (fiscal_year, fiscal_quarter, period_end, timeframe)",
+net_income_ttm,Net Income TTM,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+ebitda_per_share_current,EBITDA per Share Current,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+price_free_cash_flow_current,Price Free Cash Flow Current,1,Valuation ratios,DIRECT,"Ratios API (price_to_earnings, price_to_book, price_to_sales, price_to_free_cash_flow, price_to_cash_flow, ev_to_ebitda, ev_to_sales, enterprise_value)",EOD; server-side .gt/.lt filters available
+ebitda_ttm_h,EBITDA TTM H,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+total_debt_fq_h,Total Debt FQ H,1,Fundamentals: balance sheet,COMPUTE,Balance Sheets API (sum of lines),
+total_current_liabilities_fy,Total Current Liabilities FY,1,Fundamentals: balance sheet,DIRECT,"Balance Sheets API (quarterly, annual)",
+yield_upcoming,Yield Upcoming,1,Dividends: yield,DIRECT,Ratios.dividend_yield (EOD),Recent/upcoming variants computed from Dividends API
+capex_per_share_fq,Capex per Share FQ,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+ebitda_fq,EBITDA FQ,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+rates_fy,Rates FY,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+gross_margin_fy,Gross Margin FY,1,Fundamentals: margins,COMPUTE,Income statement,
+ebit_per_share_fq,EBIT per Share FQ,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+holds_derivatives_flag,Holds Derivatives Flag,1,ETF: profile,PARTNER,ETF Global Profiles & Exposure / Taxonomies,Paid add-on
+source-logoid,Source-logoid,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+issuance_of_stock_net_ttm,Issuance of Stock Net TTM,1,Fundamentals: cash flow,MISSING,,Only other_financing_activities (mixed)
+earnings_release_time,Earnings Release Time,1,Events: earnings date,PARTNER,"Benzinga Earnings (date, time, date_status) or TMX Corporate Events",Paid add-on
+price_annual_book,Price Annual Book,1,Valuation ratios,COMPUTE,Statements + price,
+rates_cf,Rates Cf,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+net_debt_to_ebitda_fy,Net Debt to EBITDA FY,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+dividend_treatment,Dividend Treatment,1,ETF: profile,PARTNER,ETF Global Profiles & Exposure / Taxonomies,Paid add-on
+cash_f_financing_activities_fq,Cash f Financing Activities FQ,1,Fundamentals: cash flow,DIRECT,Cash Flow Statements API; Ratios.free_cash_flow,Capex = purchase_of_property_plant_and_equipment
+total_current_assets_fq,Total Current Assets FQ,1,Fundamentals: balance sheet,DIRECT,"Balance Sheets API (quarterly, annual)",
+earnings_release_next_calendar_date,Earnings Release Next Calendar Date,1,Events: earnings date,PARTNER,"Benzinga Earnings (date, time, date_status) or TMX Corporate Events",Paid add-on
+rates_earnings_fq,Rates Earnings FQ,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+total_debt_per_share_fh,Total Debt per Share Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+all_time_high,All Time High,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),"History from 10/09/2003 only, so all-time values are limited to that start"
+expense_ratio,Expense Ratio,1,ETF: profile,PARTNER,ETF Global Profiles & Exposure / Taxonomies,Paid add-on
+leverage_ratio,Leverage Ratio,1,ETF: profile,PARTNER,ETF Global Profiles & Exposure / Taxonomies,Paid add-on
+currency_hedged_flag,Currency Hedged Flag,1,ETF: profile,PARTNER,ETF Global Profiles & Exposure / Taxonomies,Paid add-on
+ebitda_per_share_fq,EBITDA per Share FQ,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+cash_per_share_current,Cash per Share Current,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+payment_date_recent,Payment Date Recent,1,Dividends: events,DIRECT,"Dividends API (ex_dividend_date, pay_date, cash_amount, frequency)",
+weight_top_50,Weight Top 50,1,ETF: profile,PARTNER,ETF Global Constituents,Compute top-N weight from holdings
+asset_turnover_current,Asset Turnover Current,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+fixed_assets_turnover_fq,Fixed Assets Turnover FQ,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+beta_3_year,Beta 3 Year,1,Technical: volatility,COMPUTE,Aggregates (stock + index/ETF bars),Needs benchmark series
+ipo_offered_shares,IPO Offered Shares,1,Events: IPO,DIRECT,"IPOs API (final_issue_price, max_shares_offered, lowest/highest_offer_price, total_offer_size, announced_date, listing_date, shares_outstanding)",
+fiscal_period_end_fh,Fiscal Period End Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+net_debt_fy,Net Debt FY,1,Fundamentals: balance sheet,COMPUTE,Balance Sheets API (sum of lines),
+total_current_assets_fy,Total Current Assets FY,1,Fundamentals: balance sheet,DIRECT,"Balance Sheets API (quarterly, annual)",
+dividend_frequency_recent,Dividend Frequency Recent,1,Dividends: events,DIRECT,"Dividends API (ex_dividend_date, pay_date, cash_amount, frequency)",
+total_revenue_ttm_h,Total Revenue TTM H,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+ipo_offer_date,IPO Offer Date,1,Events: IPO,DIRECT,"IPOs API (final_issue_price, max_shares_offered, lowest/highest_offer_price, total_offer_size, announced_date, listing_date, shares_outstanding)",
+shares_outstanding,Shares Outstanding,1,Shares & float,DIRECT,Ticker Overview (share_class / weighted_shares_outstanding); Income (diluted_shares_outstanding),
+long_term_debt_to_assets_fq,Long Term Debt to Assets FQ,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+total_assets_fq_h,Total Assets FQ H,1,Fundamentals: balance sheet,DIRECT,"Balance Sheets API (quarterly, annual)",
+earnings_per_share_forecast_next_fy,Earnings per Share Forecast Next FY,1,Analyst: estimates & surprises,PARTNER,"Benzinga Earnings (estimated_eps, estimated_revenue, eps_surprise, revenue_surprise)",Paid add-on
+revenue_per_share_fh,Revenue per Share Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+price_book_current,Price Book Current,1,Valuation ratios,DIRECT,"Ratios API (price_to_earnings, price_to_book, price_to_sales, price_to_free_cash_flow, price_to_cash_flow, ev_to_ebitda, ev_to_sales, enterprise_value)",EOD; server-side .gt/.lt filters available
+book_tangible_per_share_current,Book Tangible per Share Current,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+total_revenue_fy,Total Revenue FY,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+price_annual_sales,Price Annual Sales,1,Valuation ratios,COMPUTE,Statements + price,
+long_term_debt_to_assets_fy,Long Term Debt to Assets FY,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+net_income_fy_h,Net Income FY H,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+ebitda_per_share_fy,EBITDA per Share FY,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+dps_common_stock_prim_issue_fq,DPS Common Stock Prim Issue FQ,1,Dividends: per share,COMPUTE,Dividends API (sum cash_amount by period),
+net_income_ttm_h,Net Income TTM H,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+ebit_ttm,EBIT TTM,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+free_cash_flow_fq_h,Free Cash Flow FQ H,1,Fundamentals: cash flow,DIRECT,Cash Flow Statements API; Ratios.free_cash_flow,Capex = purchase_of_property_plant_and_equipment
+cash_f_operating_activities_fh,Cash f Operating Activities Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+revenue_forecast_next_fq,Revenue Forecast Next FQ,1,Analyst: estimates & surprises,PARTNER,"Benzinga Earnings (estimated_eps, estimated_revenue, eps_surprise, revenue_surprise)",Paid add-on
+dividend_frequency_upcoming,Dividend Frequency Upcoming,1,Dividends: events,DIRECT,"Dividends API (ex_dividend_date, pay_date, cash_amount, frequency)",
+yield_recent,Yield Recent,1,Dividends: yield,DIRECT,Ratios.dividend_yield (EOD),Recent/upcoming variants computed from Dividends API
+research_and_dev_fh,Research and Dev Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+return_on_equity_adjust_to_book_fy,Return on Equity Adjust to Book FY,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+provider-id,Provider-id,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+total_assets_fy_h,Total Assets FY H,1,Fundamentals: balance sheet,DIRECT,"Balance Sheets API (quarterly, annual)",
+ebitda_fh,EBITDA Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+altman_z_score_fy,Altman Z Score FY,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+free_cash_flow_fq,Free Cash Flow FQ,1,Fundamentals: cash flow,DIRECT,Cash Flow Statements API; Ratios.free_cash_flow,Capex = purchase_of_property_plant_and_equipment
+cash_f_financing_activities_fh,Cash f Financing Activities Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+total_shares_outstanding_calculated,Total Shares Outstanding Calculated,1,Shares & float,DIRECT,Ticker Overview (share_class / weighted_shares_outstanding); Income (diluted_shares_outstanding),
+earnings_release_calendar_date,Earnings Release Calendar Date,1,Events: earnings date,PARTNER,"Benzinga Earnings (date, time, date_status) or TMX Corporate Events",Paid add-on
+return_on_total_capital_fy,Return on Total Capital FY,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+earnings_per_share_basic_fy_h,Earnings per Share Basic FY H,1,Fundamentals: income statement,DIRECT,Income Statements API (basic/diluted_earnings_per_share),
+shrhldrs_equity_fq,Shrhldrs Equity FQ,1,Fundamentals: balance sheet,DIRECT,"Balance Sheets API (quarterly, annual)",
+current_ratio_fy,Current Ratio FY,1,Liquidity / leverage / return ratios,DIRECT,"Ratios API (current, quick, cash, debt_to_equity, return_on_assets, return_on_equity)",Ratios API is latest TTM-based; FQ/FY variants computed from statements
+earnings_publication_type_next_fq,Earnings Publication Type Next FQ,1,Events: earnings date,PARTNER,"Benzinga Earnings (date, time, date_status) or TMX Corporate Events",Paid add-on
+working_capital_per_share_fy,Working Capital per Share FY,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+ipo_offer_time,IPO Offer Time,1,Events: IPO,MISSING,,"Primary/secondary split, SPAC flag, offer time not in IPOs API"
+return_on_invested_capital_fy,Return on Invested Capital FY,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+niche,Niche,1,ETF: profile,PARTNER,ETF Global Profiles & Exposure / Taxonomies,Paid add-on
+aum,Aum,1,"ETF: NAV, AUM, flows",PARTNER,"ETF Global Fund Flows / Profiles (nav, fund_flow, aum, discount_premium)",Paid add-on; perf values computed from history
+total_revenue_fq,Total Revenue FQ,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+revenue_forecast_next_fy,Revenue Forecast Next FY,1,Analyst: estimates & surprises,PARTNER,"Benzinga Earnings (estimated_eps, estimated_revenue, eps_surprise, revenue_surprise)",Paid add-on
+total_debt_fy_h,Total Debt FY H,1,Fundamentals: balance sheet,COMPUTE,Balance Sheets API (sum of lines),
+earnings_per_share_diluted_fy_h,Earnings per Share Diluted FY H,1,Fundamentals: income statement,DIRECT,Income Statements API (basic/diluted_earnings_per_share),
+return_on_equity_fy,Return on Equity FY,1,Liquidity / leverage / return ratios,DIRECT,"Ratios API (current, quick, cash, debt_to_equity, return_on_assets, return_on_equity)",Ratios API is latest TTM-based; FQ/FY variants computed from statements
+selection_criteria,Selection Criteria,1,ETF: profile,PARTNER,ETF Global Profiles & Exposure / Taxonomies,Paid add-on
+total_cash_dividends_paid_fq,Total Cash Dividends Paid FQ,1,Fundamentals: cash flow,DIRECT,Cash Flow (dividends) / Income (preferred_stock_dividends_declared),Half-year (_fh) not provided
+revenue_forecast_next_fh,Revenue Forecast Next Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+fiscal_period_end_fh_h,Fiscal Period End Fh H,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+price_cash_flow_current,Price Cash Flow Current,1,Valuation ratios,DIRECT,"Ratios API (price_to_earnings, price_to_book, price_to_sales, price_to_free_cash_flow, price_to_cash_flow, ev_to_ebitda, ev_to_sales, enterprise_value)",EOD; server-side .gt/.lt filters available
+diluted_shares_outstanding_fq,Diluted Shares Outstanding FQ,1,Shares & float,DIRECT,Ticker Overview (share_class / weighted_shares_outstanding); Income (diluted_shares_outstanding),
+ncavps_ratio_current,Ncavps Ratio Current,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+gross_profit_fh,Gross Profit Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+price_earnings_current,Price Earnings Current,1,Valuation ratios,DIRECT,"Ratios API (price_to_earnings, price_to_book, price_to_sales, price_to_free_cash_flow, price_to_cash_flow, ev_to_ebitda, ev_to_sales, enterprise_value)",EOD; server-side .gt/.lt filters available
+ebitda_fq_h,EBITDA FQ H,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+earnings_per_share_diluted_fq_h,Earnings per Share Diluted FQ H,1,Fundamentals: income statement,DIRECT,Income Statements API (basic/diluted_earnings_per_share),
+gross_profit_fy_h,Gross Profit FY H,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+total_debt_fq,Total Debt FQ,1,Fundamentals: balance sheet,COMPUTE,Balance Sheets API (sum of lines),
+number_of_shareholders_fy,Number of Shareholders FY,1,Company: shareholders,MISSING,,
+all_time_low,All Time Low,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),"History from 10/09/2003 only, so all-time values are limited to that start"
+operating_cash_flow_per_share_fq,Operating Cash Flow per Share FQ,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+return_on_equity_adjust_to_book_ttm,Return on Equity Adjust to Book TTM,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+ipo_offered_shares_secondary,IPO Offered Shares Secondary,1,Events: IPO,MISSING,,"Primary/secondary split, SPAC flag, offer time not in IPOs API"
+dividend_payout_ratio_percent_fq,Dividend Payout Ratio Percent FQ,1,Dividends: ratios,COMPUTE,Dividends API + income / cash flow statements,
+recommendation_buy,Recommendation Buy,1,Analyst: ratings & targets,PARTNER,Benzinga Consensus Ratings / Analyst Ratings,Paid add-on
+etf_holdings_count,Etf Holdings Count,1,ETF: profile,PARTNER,ETF Global Profiles & Exposure / Taxonomies,Paid add-on
+holdings_region,Holdings Region,1,ETF: profile,PARTNER,ETF Global Profiles & Exposure / Taxonomies,Paid add-on
+sell_gen_admin_exp_other_fy,Sell Gen Admin Exp Other FY,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+fiscal_period_end_current,Fiscal Period End Current,1,Fundamentals: period info,DIRECT,"Statements (fiscal_year, fiscal_quarter, period_end, timeframe)",
+total_revenue_fh,Total Revenue Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+book_tangible_per_share_fh,Book Tangible per Share Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+ipo_market_cap_usd,IPO Market Cap Usd,1,Events: IPO,COMPUTE,IPOs API (final_issue_price x shares_outstanding),
+net_income_bef_disc_oper_fy,Net Income Bef Disc Oper FY,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+ebitda_per_share_fh,EBITDA per Share Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+ipo_price_range_usd_max,IPO Price Range Usd Max,1,Events: IPO,DIRECT,"IPOs API (final_issue_price, max_shares_offered, lowest/highest_offer_price, total_offer_size, announced_date, listing_date, shares_outstanding)",
+research_and_dev_ttm,Research and Dev TTM,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+price_target_high,Price Target High,1,Analyst: ratings & targets,PARTNER,Benzinga Consensus Ratings / Analyst Ratings,Paid add-on
+revenue_per_share_fq,Revenue per Share FQ,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+rates_current,Rates Current,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+pre_tax_margin_ttm,Pre Tax Margin TTM,1,Fundamentals: margins,COMPUTE,Income statement,
+capex_per_share_fy,Capex per Share FY,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+ipo_price_range_usd_min,IPO Price Range Usd Min,1,Events: IPO,DIRECT,"IPOs API (final_issue_price, max_shares_offered, lowest/highest_offer_price, total_offer_size, announced_date, listing_date, shares_outstanding)",
+quick_ratio_current,Quick Ratio Current,1,Liquidity / leverage / return ratios,DIRECT,"Ratios API (current, quick, cash, debt_to_equity, return_on_assets, return_on_equity)",Ratios API is latest TTM-based; FQ/FY variants computed from statements
+leverage,Leverage,1,ETF: profile,PARTNER,ETF Global Profiles & Exposure / Taxonomies,Paid add-on
+index_priority,Index Priority,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+rates_time_series,Rates Time Series,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+cash_ratio,Cash Ratio,1,Liquidity / leverage / return ratios,DIRECT,"Ratios API (current, quick, cash, debt_to_equity, return_on_assets, return_on_equity)",Ratios API is latest TTM-based; FQ/FY variants computed from statements
+total_debt_fy,Total Debt FY,1,Fundamentals: balance sheet,COMPUTE,Balance Sheets API (sum of lines),
+capital_expenditures_unchanged_fy_h,Capital Expenditures Unchanged FY H,1,Fundamentals: cash flow,DIRECT,Cash Flow Statements API; Ratios.free_cash_flow,Capex = purchase_of_property_plant_and_equipment
+total_debt_per_share_current,Total Debt per Share Current,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+beta_5_year,Beta 5 Year,1,Technical: volatility,COMPUTE,Aggregates (stock + index/ETF bars),Needs benchmark series
+dividends_frequency,Dividends Frequency,1,Dividends: events,DIRECT,"Dividends API (ex_dividend_date, pay_date, cash_amount, frequency)",
+gross_profit_fq_h,Gross Profit FQ H,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+ebitda_fy_h,EBITDA FY H,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+capital_expenditures_unchanged_fq_h,Capital Expenditures Unchanged FQ H,1,Fundamentals: cash flow,DIRECT,Cash Flow Statements API; Ratios.free_cash_flow,Capex = purchase_of_property_plant_and_equipment
+oper_income_fq,Oper Income FQ,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+ex_dividend_date_recent,Ex Dividend Date Recent,1,Dividends: events,DIRECT,"Dividends API (ex_dividend_date, pay_date, cash_amount, frequency)",
+amount_recent,Amount Recent,1,Dividends: events,DIRECT,"Dividends API (ex_dividend_date, pay_date, cash_amount, frequency)",
+return_on_common_equity_fy,Return on Common Equity FY,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+book_value_per_share_current,Book Value per Share Current,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+cash_per_share_fy,Cash per Share FY,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+total_shares_outstanding_current,Total Shares Outstanding Current,1,Shares & float,DIRECT,Ticker Overview (share_class / weighted_shares_outstanding); Income (diluted_shares_outstanding),
+earnings_release_trading_date_fy,Earnings Release Trading Date FY,1,Events: earnings date,PARTNER,"Benzinga Earnings (date, time, date_status) or TMX Corporate Events",Paid add-on
+dividend_payment_date_recent,Dividend Payment Date Recent,1,Dividends: events,DIRECT,"Dividends API (ex_dividend_date, pay_date, cash_amount, frequency)",
+total_revenue_fy_h,Total Revenue FY H,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+total_assets_to_equity_fy,Total Assets to Equity FY,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+total_capital,Total Capital,1,Fundamentals: balance sheet,COMPUTE,Balance Sheets API (sum of lines),
+preferred_dividends,Preferred Dividends,1,Fundamentals: cash flow,DIRECT,Cash Flow (dividends) / Income (preferred_stock_dividends_declared),Half-year (_fh) not provided
+ncavps_ratio_fh,Ncavps Ratio Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+dividend_payout_ratio_fy,Dividend Payout Ratio FY,1,Dividends: ratios,COMPUTE,Dividends API + income / cash flow statements,
+piotroski_f_score_fy,Piotroski f Score FY,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+dividend_amount_recent,Dividend Amount Recent,1,Dividends: events,DIRECT,"Dividends API (ex_dividend_date, pay_date, cash_amount, frequency)",
+weighting_scheme,Weighting Scheme,1,ETF: profile,PARTNER,ETF Global Profiles & Exposure / Taxonomies,Paid add-on
+ebit_per_share_current,EBIT per Share Current,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+total_cash_dividends_paid_fy,Total Cash Dividends Paid FY,1,Fundamentals: cash flow,DIRECT,Cash Flow (dividends) / Income (preferred_stock_dividends_declared),Half-year (_fh) not provided
+transparent_holding_flag,Transparent Holding Flag,1,ETF: profile,PARTNER,ETF Global Profiles & Exposure / Taxonomies,Paid add-on
+research_and_dev_per_employee_fy,Research and Dev per Employee FY,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+rates_ttm,Rates TTM,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+weight_top_25,Weight Top 25,1,ETF: profile,PARTNER,ETF Global Constituents,Compute top-N weight from holdings
+earnings_per_share_basic_fh,Earnings per Share Basic Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+quick_ratio_fy,Quick Ratio FY,1,Liquidity / leverage / return ratios,DIRECT,"Ratios API (current, quick, cash, debt_to_equity, return_on_assets, return_on_equity)",Ratios API is latest TTM-based; FQ/FY variants computed from statements
+rates_pt,Rates Pt,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+relative_volume,Relative Volume,1,Price & volume: averages,COMPUTE,"Aggregates; Ratios.average_volume (30 day, EOD)",30-day average volume is direct in Ratios
+capital_expenditures_yoy_growth_fq,Capital Expenditures YOY Growth FQ,1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+enterprise_value_to_free_cash_flow_ttm,Enterprise Value to Free Cash Flow TTM,1,Valuation ratios,COMPUTE,Statements + price,
+currency_id,Currency Id,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+neg_capital_expenditures_ttm,Neg Capital Expenditures TTM,1,Fundamentals: cash flow,DIRECT,Cash Flow Statements API; Ratios.free_cash_flow,Capex = purchase_of_property_plant_and_equipment
+neg_total_cash_dividends_paid_fq,Neg Total Cash Dividends Paid FQ,1,Fundamentals: cash flow,DIRECT,Cash Flow (dividends) / Income (preferred_stock_dividends_declared),Half-year (_fh) not provided
+capital_expenditures_yoy_growth_ttm,Capital Expenditures YOY Growth TTM,1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+total_revenue_cagr_5y,Total Revenue Cagr 5y,1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+revenue_surprise_percent_fq,Revenue Surprise Percent FQ,1,Analyst: estimates & surprises,PARTNER,"Benzinga Earnings (estimated_eps, estimated_revenue, eps_surprise, revenue_surprise)",Paid add-on
+neg_capital_expenditures_fq,Neg Capital Expenditures FQ,1,Fundamentals: cash flow,DIRECT,Cash Flow Statements API; Ratios.free_cash_flow,Capex = purchase_of_property_plant_and_equipment
+neg_capital_expenditures_fy,Neg Capital Expenditures FY,1,Fundamentals: cash flow,DIRECT,Cash Flow Statements API; Ratios.free_cash_flow,Capex = purchase_of_property_plant_and_equipment
+is_primary,Is Primary,1,Reference,MISSING,,
+is_shariah_compliant,Is Shariah Compliant,1,Reference,MISSING,,
+total_debt_to_ebitda_fy,Total Debt to EBITDA FY,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+neg_total_cash_dividends_paid_ttm,Neg Total Cash Dividends Paid TTM,1,Fundamentals: cash flow,DIRECT,Cash Flow (dividends) / Income (preferred_stock_dividends_declared),Half-year (_fh) not provided
+kind-delay,Kind-delay,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+eps_surprise_percent_fq,EPS Surprise Percent FQ,1,Analyst: estimates & surprises,PARTNER,"Benzinga Earnings (estimated_eps, estimated_revenue, eps_surprise, revenue_surprise)",Paid add-on
+maturity_date,Maturity Date,1,Bond / futures field,N/A,,Not a stock field
+total_debt_to_ebitda_fq,Total Debt to EBITDA FQ,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+neg_research_and_dev_fq,Neg Research and Dev FQ,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+expiration,Expiration,1,Bond / futures field,N/A,,Not a stock field
+free_cash_flow_cagr_5y,Free Cash Flow Cagr 5y,1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+neg_total_cash_dividends_paid_fh,Neg Total Cash Dividends Paid Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+price_target_1y_delta,Price Target 1y Delta,1,Analyst: ratings & targets,PARTNER,Benzinga Consensus Ratings / Analyst Ratings,Paid add-on
+base_currency_kind,Base Currency Kind,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+cryptoasset-info.description,Cryptoasset-info Description,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+earnings_per_share_basic_cagr_5y,Earnings per Share Basic Cagr 5y,1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+active_symbol,Active Symbol,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+price_sales,Price Sales,1,Valuation ratios,DIRECT,"Ratios API (price_to_earnings, price_to_book, price_to_sales, price_to_free_cash_flow, price_to_cash_flow, ev_to_ebitda, ev_to_sales, enterprise_value)",EOD; server-side .gt/.lt filters available
+low_after_high_all_change,Low After High All Change,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),"History from 10/09/2003 only, so all-time values are limited to that start"
+low_after_high_all_change_abs,Low After High All Change Abs,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),"History from 10/09/2003 only, so all-time values are limited to that start"
+update_time,Update Time,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+days_to_maturity,Days to Maturity,1,Bond / futures field,N/A,,Not a stock field
+currency_kind,Currency Kind,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+revenue_surprise_fq,Revenue Surprise FQ,1,Analyst: estimates & surprises,PARTNER,"Benzinga Earnings (estimated_eps, estimated_revenue, eps_surprise, revenue_surprise)",Paid add-on
+kind,Kind,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+total_revenue_5y_growth_fy,Total Revenue 5y Growth FY,1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+net_income_cagr_5y,Net Income Cagr 5y,1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+capital_expenditures_qoq_growth_fq,Capital Expenditures QOQ Growth FQ,1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+neg_research_and_dev_ttm,Neg Research and Dev TTM,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+coupon,Coupon,1,Bond / futures field,N/A,,Not a stock field
+neg_capital_expenditures_fh,Neg Capital Expenditures Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+enterprise_value_current,Enterprise Value Current,1,Valuation ratios,DIRECT,"Ratios API (price_to_earnings, price_to_book, price_to_sales, price_to_free_cash_flow, price_to_cash_flow, ev_to_ebitda, ev_to_sales, enterprise_value)",EOD; server-side .gt/.lt filters available
+neg_research_and_dev_fh,Neg Research and Dev Fh,1,Fundamentals: half-year period,MISSING,,"massive gives quarterly, annual, TTM only (US filers report quarterly)"
+neg_total_cash_dividends_paid_fy,Neg Total Cash Dividends Paid FY,1,Fundamentals: cash flow,DIRECT,Cash Flow (dividends) / Income (preferred_stock_dividends_declared),Half-year (_fh) not provided
+typespecs,Typespecs,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+price_target_1y,Price Target 1y,1,Analyst: ratings & targets,PARTNER,Benzinga Consensus Ratings / Analyst Ratings,Paid add-on
+cash_n_short_term_invest_to_total_current_liabilities_fq,Cash n Short Term Invest to Total Current Liabilities FQ,1,Fundamentals: derived ratios & scores,COMPUTE,Balance sheet + income + cash flow + price (+ Ticker Overview.total_employees),Per-employee uses current headcount only
+is_symbol_primary_listing,Is Symbol Primary Listing,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+earnings_per_share_diluted_5y_growth_fy,Earnings per Share Diluted 5y Growth FY,1,Fundamentals: growth,COMPUTE,Statements history (since 29/03/2009),
+is_blacklisted,Is Blacklisted,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+cryptoasset-info.id,Cryptoasset-info Id,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+eps_surprise_fq,EPS Surprise FQ,1,Analyst: estimates & surprises,PARTNER,"Benzinga Earnings (estimated_eps, estimated_revenue, eps_surprise, revenue_surprise)",Paid add-on
+neg_research_and_dev_fy,Neg Research and Dev FY,1,Fundamentals: income statement,DIRECT,"Income Statements API (quarterly, annual, TTM)",EBIT computed; _h history suffix = time series
+most_recent_quarter_date,Most Recent Quarter Date,1,Fundamentals: period info,DIRECT,"Statements (fiscal_year, fiscal_quarter, period_end, timeframe)",
+market_cap_calc,Market Cap Calc,1,Valuation: market cap,DIRECT,Ticker Overview.market_cap; Ratios.market_cap,
+last_bar_update_time,Last Bar Update Time|240,10,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+post_change,Post Change|1,10,Price & volume: extended hours,COMPUTE,"Minute aggregates (include extended hours); Daily Ticker Summary (preMarket, afterHours price)",Only pre/after-hours single price is direct
+pre_change_abs,Pre Change Abs|15,10,Price & volume: extended hours,COMPUTE,"Minute aggregates (include extended hours); Daily Ticker Summary (preMarket, afterHours price)",Only pre/after-hours single price is direct
+indicators_bars_count,Indicators Bars Count|1,10,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+gap_down_abs,Gap Down Abs,10,Price & volume: current bar,COMPUTE,Snapshot (day + prevDay),Simple arithmetic on snapshot values
+volume_change,Volume Change|60,10,Price & volume: current bar,COMPUTE,Snapshot (day + prevDay),Simple arithmetic on snapshot values
+time,Time|15,10,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+gap_down,Gap Down|120,10,Price & volume: current bar,COMPUTE,Snapshot (day + prevDay),Simple arithmetic on snapshot values
+update_mode,Update Mode|120,10,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+gap_up,Gap Up,10,Price & volume: current bar,COMPUTE,Snapshot (day + prevDay),Simple arithmetic on snapshot values
+volume_change_abs,Volume Change Abs|60,10,Price & volume: current bar,COMPUTE,Snapshot (day + prevDay),Simple arithmetic on snapshot values
+pre_change,Pre Change|60,10,Price & volume: extended hours,COMPUTE,"Minute aggregates (include extended hours); Daily Ticker Summary (preMarket, afterHours price)",Only pre/after-hours single price is direct
+gap_up_abs,Gap Up Abs|1,10,Price & volume: current bar,COMPUTE,Snapshot (day + prevDay),Simple arithmetic on snapshot values
+bars_count,Bars Count|30,10,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+ADX-DI_9[1],Adx-di 9[1]|1m,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+High.5D,High 5d,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),Includes dates of high/low
+EMA12,Ema12|5,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+SMA34,Sma34|5,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+Ichimoku.CLine_20_60_120_30,Ichimoku Cline 20 60 120 30|15,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+ADX+DI_100,Adx+di 100|15,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+ADX+DI_50,Adx+di 50|240,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+ADX_9,ADX 9|1,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+SMA60,Sma60|1w,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+RSI30,Rsi30|60,10,Technical: oscillator,DIRECT,Technical Indicators API (RSI),One ticker per call; any window and timespan
+EMA34,Ema34|30,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+EMA75,Ema75|30,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+SMA250,Sma250|120,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+SMA8,Sma8,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+Rec.WR,Rec Wr|1,10,Technical: TV technical rating,COMPUTE,Aggregates + local indicators,TradingView rating formula must be reproduced locally
+High.All.Calc,High All Calc,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),Includes dates of high/low
+EMA15,Ema15|60,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+ADX-DI_50[1],Adx-di 50[1]|240,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+EMA21,Ema21|15,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+Stoch.D_14_1_3[1],Stoch D 14 1 3[1],10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+EMA14,Ema14,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+EMA55,Ema55|240,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+Stoch.K_5_3_3[1],Stoch K 5 3 3[1],10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+EMA8,Ema8|5,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+RSI9,Rsi9,10,Technical: oscillator,DIRECT,Technical Indicators API (RSI),One ticker per call; any window and timespan
+MACD.hist,MACD Hist|1,10,Technical: oscillator,DIRECT,Technical Indicators API (MACD),One ticker per call
+SMA13,Sma13|5,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+nav_perf.3Y,Nav Perf 3y,1,"ETF: NAV, AUM, flows",PARTNER,"ETF Global Fund Flows / Profiles (nav, fund_flow, aum, discount_premium)",Paid add-on; perf values computed from history
+ADX-DI_100[1],Adx-di 100[1]|240,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+EMA120,Ema120|240,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+ADX-DI_20[1],Adx-di 20[1]|240,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+RSI5,Rsi5|30,10,Technical: oscillator,DIRECT,Technical Indicators API (RSI),One ticker per call; any window and timespan
+EMA2,Ema2|5,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+Perf.5Y.MarketCap,Perf 5y Marketcap,1,Performance: market cap change,COMPUTE,Aggregates + shares outstanding history,
+Rec.Ichimoku,Rec Ichimoku|5,10,Technical: TV technical rating,COMPUTE,Aggregates + local indicators,TradingView rating formula must be reproduced locally
+BB.basis_50,BB Basis 50|1w,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+ADX+DI_20,Adx+di 20|30,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+Stoch.D_6_3_3[1],Stoch D 6 3 3[1]|30,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+ADX_50,ADX 50|1m,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+Stoch.D_14_1_3,Stoch D 14 1 3|240,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+RSI5[1],Rsi5[1]|120,10,Technical: oscillator,DIRECT,Technical Indicators API (RSI),One ticker per call; any window and timespan
+EMA3,Ema3|1,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+SMA150,Sma150|1,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+Ichimoku.BLine_20_60_120_30,Ichimoku Bline 20 60 120 30|1m,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+EMA26,Ema26|1,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+EMA300,Ema300|15,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+Rec.Stoch.RSI,Rec Stoch RSI,10,Technical: TV technical rating,COMPUTE,Aggregates + local indicators,TradingView rating formula must be reproduced locally
+SMA25,Sma25|240,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+RSI20[1],Rsi20[1]|1,10,Technical: oscillator,DIRECT,Technical Indicators API (RSI),One ticker per call; any window and timespan
+RSI30[1],Rsi30[1]|30,10,Technical: oscillator,DIRECT,Technical Indicators API (RSI),One ticker per call; any window and timespan
+SMA26,Sma26|30,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+Rec.VWMA,Rec Vwma|30,10,Technical: TV technical rating,COMPUTE,Aggregates + local indicators,TradingView rating formula must be reproduced locally
+EMA89,Ema89|30,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+ADX+DI_100[1],Adx+di 100[1]|1w,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+RSI9[1],Rsi9[1]|1,10,Technical: oscillator,DIRECT,Technical Indicators API (RSI),One ticker per call; any window and timespan
+AO[2],Ao[2]|1,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+AO[1],Ao[1]|60,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+Stoch.K_5_3_3,Stoch K 5 3 3|15,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+EMA250,Ema250|1m,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+ADX-DI_100,Adx-di 100,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+ADX-DI_9,Adx-di 9|1m,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+Mom_14,Mom 14|30,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+nav_total_return.YTD,Nav Total Return Ytd,1,"ETF: NAV, AUM, flows",PARTNER,"ETF Global Fund Flows / Profiles (nav, fund_flow, aum, discount_premium)",Paid add-on; perf values computed from history
+SMA120,Sma120,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+ADX+DI_20[1],Adx+di 20[1],10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+fund_flows.YTD,Fund Flows Ytd,1,"ETF: NAV, AUM, flows",PARTNER,"ETF Global Fund Flows / Profiles (nav, fund_flow, aum, discount_premium)",Paid add-on; perf values computed from history
+ADX+DI[1],Adx+di[1]|120,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+Stoch.D_8_3_3[1],Stoch D 8 3 3[1]|1w,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+SMA75,Sma75|1m,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+Mom_14[1],Mom 14[1]|5,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+Rec.BBPower,Rec Bbpower|60,10,Technical: TV technical rating,COMPUTE,Aggregates + local indicators,TradingView rating formula must be reproduced locally
+RSI3[1],Rsi3[1]|5,10,Technical: oscillator,DIRECT,Technical Indicators API (RSI),One ticker per call; any window and timespan
+HullMA200,Hullma200|5,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+SMA15,Sma15|240,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+DonchCh20.Middle,Donchch20 Middle|5,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+ADX+DI_50[1],Adx+di 50[1]|15,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+fund_flows.3M,Fund Flows 3m,1,"ETF: NAV, AUM, flows",PARTNER,"ETF Global Fund Flows / Profiles (nav, fund_flow, aum, discount_premium)",Paid add-on; perf values computed from history
+ADX+DI_9[1],Adx+di 9[1]|5,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+BB.upper_50,BB Upper 50|5,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Stoch.K_14_1_3[1],Stoch K 14 1 3[1]|5,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+price_52_week_high_date,Price 52 Week High Date,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),"History from 10/09/2003 only, so all-time values are limited to that start"
+ADX-DI[1],Adx-di[1]|240,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+ADX_100,ADX 100|1w,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+RSI10[1],Rsi10[1]|240,10,Technical: oscillator,DIRECT,Technical Indicators API (RSI),One ticker per call; any window and timespan
+ADX-DI_50,Adx-di 50|5,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+ADX+DI_9,Adx+di 9|120,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+Stoch.D_5_3_3,Stoch D 5 3 3|1,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+BB.basis,BB Basis|120,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+Rec.UO,Rec Uo|15,10,Technical: TV technical rating,COMPUTE,Aggregates + local indicators,TradingView rating formula must be reproduced locally
+Ichimoku.Lead1_20_60_120_30,Ichimoku Lead1 20 60 120 30|30,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+RSI10,Rsi10|1,10,Technical: oscillator,DIRECT,Technical Indicators API (RSI),One ticker per call; any window and timespan
+Stoch.D_6_3_3,Stoch D 6 3 3|30,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+RSI7[1],Rsi7[1]|1w,10,Technical: oscillator,DIRECT,Technical Indicators API (RSI),One ticker per call; any window and timespan
+RSI[1],Rsi[1]|1m,10,Technical: oscillator,DIRECT,Technical Indicators API (RSI),One ticker per call; any window and timespan
+SMA14,Sma14|240,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+Stoch.D[1],Stoch D[1]|1w,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+KltChnl.basis,Kltchnl Basis|60,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+RSI3,Rsi3|1m,10,Technical: oscillator,DIRECT,Technical Indicators API (RSI),One ticker per call; any window and timespan
+Mom[1],Mom[1]|30,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+EMA7,Ema7|240,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+EMA144,Ema144|60,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+RSI21,Rsi21|5,10,Technical: oscillator,DIRECT,Technical Indicators API (RSI),One ticker per call; any window and timespan
+EMA40,Ema40|15,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+EMA6,Ema6|5,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+SMA12,Sma12|1,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+aum_perf.3Y,Aum Perf 3y,1,"ETF: NAV, AUM, flows",PARTNER,"ETF Global Fund Flows / Profiles (nav, fund_flow, aum, discount_premium)",Paid add-on; perf values computed from history
+Stoch.K_6_3_3[1],Stoch K 6 3 3[1]|1m,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+Ichimoku.Lead2_20_60_120_30,Ichimoku Lead2 20 60 120 30|5,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+High.6M.Date,High 6m Date,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),Includes dates of high/low
+Stoch.D_5_3_3[1],Stoch D 5 3 3[1]|15,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+SMA89,Sma89|120,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+SMA7,Sma7|30,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+RSI21[1],Rsi21[1]|120,10,Technical: oscillator,DIRECT,Technical Indicators API (RSI),One ticker per call; any window and timespan
+CCI20[1],Cci20[1]|240,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+SMA144,Sma144|30,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+RSI2,Rsi2|30,10,Technical: oscillator,DIRECT,Technical Indicators API (RSI),One ticker per call; any window and timespan
+ADRP,Adrp|1,10,Technical: volatility,COMPUTE,Aggregates (OHLCV bars),
+SMA2,Sma2|15,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+EMA9,Ema9|1w,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+EMA25,Ema25|15,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+RSI4,Rsi4|1m,10,Technical: oscillator,DIRECT,Technical Indicators API (RSI),One ticker per call; any window and timespan
+Stoch.K_14_1_3,Stoch K 14 1 3|1,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+EMA13,Ema13|30,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+RSI2[1],Rsi2[1]|1m,10,Technical: oscillator,DIRECT,Technical Indicators API (RSI),One ticker per call; any window and timespan
+nav_perf.5Y,Nav Perf 5y,1,"ETF: NAV, AUM, flows",PARTNER,"ETF Global Fund Flows / Profiles (nav, fund_flow, aum, discount_premium)",Paid add-on; perf values computed from history
+SMA9,Sma9|1m,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+price_52_week_low_date,Price 52 Week Low Date,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),"History from 10/09/2003 only, so all-time values are limited to that start"
+Stoch.K[1],Stoch K[1],10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+SMA21,Sma21|1,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+aum_perf.5Y,Aum Perf 5y,1,"ETF: NAV, AUM, flows",PARTNER,"ETF Global Fund Flows / Profiles (nav, fund_flow, aum, discount_premium)",Paid add-on; perf values computed from history
+Low.3M.Date,Low 3m Date,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),Includes dates of high/low
+RSI20,Rsi20|120,10,Technical: oscillator,DIRECT,Technical Indicators API (RSI),One ticker per call; any window and timespan
+EMA150,Ema150|30,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+Stoch.D_8_3_3,Stoch D 8 3 3|120,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+EMA60,Ema60|1w,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+fund_flows.5Y,Fund Flows 5y,1,"ETF: NAV, AUM, flows",PARTNER,"ETF Global Fund Flows / Profiles (nav, fund_flow, aum, discount_premium)",Paid add-on; perf values computed from history
+Low.1M.Date,Low 1m Date,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),Includes dates of high/low
+Rec.HullMA9,Rec Hullma9|60,10,Technical: TV technical rating,COMPUTE,Aggregates + local indicators,TradingView rating formula must be reproduced locally
+first_bar_time,First Bar Time,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+nav_total_return.3Y,Nav Total Return 3y,1,"ETF: NAV, AUM, flows",PARTNER,"ETF Global Fund Flows / Profiles (nav, fund_flow, aum, discount_premium)",Paid add-on; perf values computed from history
+ADX-DI_20,Adx-di 20|1w,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+SMA6,Sma6|5,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+fund_flows.1M,Fund Flows 1m,1,"ETF: NAV, AUM, flows",PARTNER,"ETF Global Fund Flows / Profiles (nav, fund_flow, aum, discount_premium)",Paid add-on; perf values computed from history
+BB.lower_50,BB Lower 50|240,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+SMA40,Sma40|1,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+Low.After.High.All,Low After High All,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),Includes dates of high/low
+Stoch.K_8_3_3,Stoch K 8 3 3|30,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+nav_perf.YTD,Nav Perf Ytd,1,"ETF: NAV, AUM, flows",PARTNER,"ETF Global Fund Flows / Profiles (nav, fund_flow, aum, discount_premium)",Paid add-on; perf values computed from history
+HullMA20,Hullma20,10,Technical: bands / trend / pivots,COMPUTE,Aggregates (OHLCV bars),Not in massive indicator list
+nav_discount_premium,Nav Discount Premium,1,"ETF: NAV, AUM, flows",PARTNER,"ETF Global Fund Flows / Profiles (nav, fund_flow, aum, discount_premium)",Paid add-on; perf values computed from history
+Stoch.K_6_3_3,Stoch K 6 3 3|15,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+Low.All.Calc.Date,Low All Calc Date,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),Includes dates of high/low
+High.All.Date,High All Date,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),Includes dates of high/low
+nav_total_return.3M,Nav Total Return 3m,1,"ETF: NAV, AUM, flows",PARTNER,"ETF Global Fund Flows / Profiles (nav, fund_flow, aum, discount_premium)",Paid add-on; perf values computed from history
+fund_flows.1Y,Fund Flows 1y,1,"ETF: NAV, AUM, flows",PARTNER,"ETF Global Fund Flows / Profiles (nav, fund_flow, aum, discount_premium)",Paid add-on; perf values computed from history
+SMA55,Sma55|1w,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+ADX_20,ADX 20|15,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+Stoch.K_8_3_3[1],Stoch K 8 3 3[1]|1w,10,Technical: oscillator,COMPUTE,Aggregates (OHLCV bars),"Not in massive indicator list (only SMA, EMA, RSI, MACD)"
+relative_volume_intraday,Relative Volume Intraday|5,1,Price & volume: averages,COMPUTE,"Aggregates; Ratios.average_volume (30 day, EOD)",30-day average volume is direct in Ratios
+nav_total_return.5Y,Nav Total Return 5y,1,"ETF: NAV, AUM, flows",PARTNER,"ETF Global Fund Flows / Profiles (nav, fund_flow, aum, discount_premium)",Paid add-on; perf values computed from history
+aum_perf.1Y,Aum Perf 1y,1,"ETF: NAV, AUM, flows",PARTNER,"ETF Global Fund Flows / Profiles (nav, fund_flow, aum, discount_premium)",Paid add-on; perf values computed from history
+RSI4[1],Rsi4[1]|30,10,Technical: oscillator,DIRECT,Technical Indicators API (RSI),One ticker per call; any window and timespan
+nav_total_return.1M,Nav Total Return 1m,1,"ETF: NAV, AUM, flows",PARTNER,"ETF Global Fund Flows / Profiles (nav, fund_flow, aum, discount_premium)",Paid add-on; perf values computed from history
+Open.All.Calc,Open All Calc,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),Includes dates of high/low
+fund_flows.3Y,Fund Flows 3y,1,"ETF: NAV, AUM, flows",PARTNER,"ETF Global Fund Flows / Profiles (nav, fund_flow, aum, discount_premium)",Paid add-on; perf values computed from history
+AvgValue.Traded_60d,Avgvalue Traded 60d,1,Price & volume: averages,COMPUTE,"Aggregates; Ratios.average_volume (30 day, EOD)",30-day average volume is direct in Ratios
+nav_perf.1M,Nav Perf 1m,1,"ETF: NAV, AUM, flows",PARTNER,"ETF Global Fund Flows / Profiles (nav, fund_flow, aum, discount_premium)",Paid add-on; perf values computed from history
+aum_perf.1M,Aum Perf 1m,1,"ETF: NAV, AUM, flows",PARTNER,"ETF Global Fund Flows / Profiles (nav, fund_flow, aum, discount_premium)",Paid add-on; perf values computed from history
+nav_total_return.6M,Nav Total Return 6m,1,"ETF: NAV, AUM, flows",PARTNER,"ETF Global Fund Flows / Profiles (nav, fund_flow, aum, discount_premium)",Paid add-on; perf values computed from history
+SMA300,Sma300|1m,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+Perf.3Y,Perf 3y,1,Performance: price change,COMPUTE,Aggregates (daily bars),
+AvgValue.Traded_30d,Avgvalue Traded 30d,1,Price & volume: averages,COMPUTE,"Aggregates; Ratios.average_volume (30 day, EOD)",30-day average volume is direct in Ratios
+SMA3,Sma3,10,Technical: moving average,DIRECT,Technical Indicators API (SMA/EMA),One ticker per call; any window and timespan. No screen-wide filter
+time_business_day,Time Business Day,1,TV internal metadata,N/A,,"Display, currency conversion or session metadata of TradingView"
+High.1M.Date,High 1m Date,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),Includes dates of high/low
+High.All.Calc.Date,High All Calc Date,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),Includes dates of high/low
+Low.6M.Date,Low 6m Date,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),Includes dates of high/low
+nav_perf.3M,Nav Perf 3m,1,"ETF: NAV, AUM, flows",PARTNER,"ETF Global Fund Flows / Profiles (nav, fund_flow, aum, discount_premium)",Paid add-on; perf values computed from history
+aum_perf.3M,Aum Perf 3m,1,"ETF: NAV, AUM, flows",PARTNER,"ETF Global Fund Flows / Profiles (nav, fund_flow, aum, discount_premium)",Paid add-on; perf values computed from history
+Low.All.Calc,Low All Calc,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),Includes dates of high/low
+AvgValue.Traded_10d,Avgvalue Traded 10d,1,Price & volume: averages,COMPUTE,"Aggregates; Ratios.average_volume (30 day, EOD)",30-day average volume is direct in Ratios
+Perf.1Y.MarketCap,Perf 1y Marketcap,1,Performance: market cap change,COMPUTE,Aggregates + shares outstanding history,
+nav_total_return.1Y,Nav Total Return 1y,1,"ETF: NAV, AUM, flows",PARTNER,"ETF Global Fund Flows / Profiles (nav, fund_flow, aum, discount_premium)",Paid add-on; perf values computed from history
+High.3M.Date,High 3m Date,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),Includes dates of high/low
+aum_perf.YTD,Aum Perf Ytd,1,"ETF: NAV, AUM, flows",PARTNER,"ETF Global Fund Flows / Profiles (nav, fund_flow, aum, discount_premium)",Paid add-on; perf values computed from history
+nav_perf.1Y,Nav Perf 1y,1,"ETF: NAV, AUM, flows",PARTNER,"ETF Global Fund Flows / Profiles (nav, fund_flow, aum, discount_premium)",Paid add-on; perf values computed from history
+AvgValue.Traded_90d,Avgvalue Traded 90d,1,Price & volume: averages,COMPUTE,"Aggregates; Ratios.average_volume (30 day, EOD)",30-day average volume is direct in Ratios
+Low.5D,Low 5d,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),Includes dates of high/low
+Perf.10Y,Perf 10y,1,Performance: price change,COMPUTE,Aggregates (daily bars),
+Low.All.Date,Low All Date,1,Price & volume: period high/low,COMPUTE,Aggregates (daily bars),Includes dates of high/low
+Perf.5D,Perf 5d,1,Performance: price change,COMPUTE,Aggregates (daily bars),
